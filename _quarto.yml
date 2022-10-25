@@ -1,8 +1,6 @@
 project:
   type: book
 
-
-
 book:
   title: "Innovation for Sustainable Development <br> HT 2022"
   author: <a href="https://pjkreutzer.github.io" target="_blank" rel="noopener">Jonas Kreutzer</a>
@@ -28,8 +26,5 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
-
 
 
