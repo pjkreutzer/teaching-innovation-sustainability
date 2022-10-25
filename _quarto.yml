@@ -8,7 +8,7 @@ book:
   date-format: long
   chapters:
     - index.qmd
-    - part: lecture.qmd
+    - part: lectures.qmd
       chapters:
         - lecture1-notes.qmd
         - lecture1-slides.qmd
