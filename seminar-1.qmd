@@ -1,4 +1,4 @@
-# Seminar 1: Inside Innovation Systems for Sustainability Transitions {.unnumbered}
+# Seminar 1: Inside Innovation Systems for Sustainability Transitions 
 
 The goal of this seminar is to provide you with a deeper understanding of why innovation systems are useful analytical tools.
 
@@ -19,39 +19,89 @@ The goal of this seminar is to provide you with a deeper understanding of why in
 - What is sustainable needs to be consistently negotiated by stakeholders
 
 
-## Duration
+## Simulation Game of Innovation and Sustainability
 
 60 minutes of game play, 30 minutes of immediate reflection
+The overall aim of the game is to simulate how an innovation system navigates innovation for sustainability.
+Each role has their own personal goals in the game.
+They are stated in the summary table below.
 
-Rounds:
+### Description of Game Process
+
+The game has ten rounds with one round taking about five minutes.
+
+Overview of each round:
 
 1. Innovation goals are set
 2. Innovators draw cards
-3. Outcomes are revealed
-4. Discussion of outcomes and state of game
-5. Negotiation of innovation goals
-6. Innovation goals are set
+3. Innovators may play cards
+4. Consumption
+5. Discussion of outcomes and state of game
+6. Negotiation of innovation goals
 
-
-Each innovator draws two cards.
-They can decide if they from which pile to draw: red stands for product and black for process innovations.
-When they have a pair, the innovation adds to the scoreboard with the sum of the cards.
-When they have both a process and a product at the same time, it is doubled.
-
-
+There are two indicators that everyone in the game can see and influence.
+One representing the economy and one the environment.
 The environmental indicator ranges from 0 - 10; from completely destroyed to a perfectly intact environment.
-It starts at 10.
-The economy indicator starts at 100 and goes from there.
-Each round the environmental indicator decreases by 10% (rounded to the nearest integer) of the economy indicator.
-Then the lobbyist and the politician decide how to fund the innovators.
+At the beginning of the game its value is 10.
+The economy indicator starts at 100 and develops from there.
+Each round the environmental indicator decreases by 100% (rounded to the nearest integer) of the economy indicator.
 
-One card costs 5 output points (average of card deck = 7.5).
-Each new economic innovation increases the economy indicator by the sum of its numbers.
-An environmental innovation adds 1 point to the environmental indicator, but adds only half to the economic indicator.
+> _Example_: From the outcomes of the first round the economic indicator has grown to 150.
+Therefore the environmental indicator is decreased by 2 (1.5 rounded up to the nearest full number). Round 2 begins with the indicators at 150 and 8.
 
-Each round the consumer decides if they want to consume a regular product or an environmental product, adding 5 or 3 points to the economy indicator, respectively. 
+Over the course of the game, you will:
+- fund innovation by deciding how many cards to draw from a deck;
+- innovate by playing matching cards;
+- consume as much as you want.
 
+The game ends after ten rounds, or if the environment is fully depleted.
+At the end of the game the special politician role faces an election.
 
+#### 1. Setting Innovation Goals
+
+At the beginning of each round, the innovation goals are formulated.
+While the university researcher is free to set their goals, the company researchers have to follow the orders of the industry player.
+
+> _Example_: Industry decides that they want a new economic product innovation. If the innovators can, they must play a product innovation for the economy in step 3.
+
+At this step, the industry and the politician also decide how much they want to spend on innovation in this round.
+One card costs 5 points subtracted from the economic indicator.
+
+> _Example_: The politician decides to spend 10 points. The university researcher gets to draw two cards. Industry decides to spend 20 points, it's innovators are allowed to draw 4 cards.
+
+#### 2. Innovators draw cards
+
+Each innovator draws cards according to their budget.
+They can decide if from which pile to draw: red stands for product and black for process innovations.
+
+#### 3. Innovation
+
+When the innovators have collected a pair of cards, they can play them as an innovation.
+The innovation then adds to the scoreboards.
+For an economic innovation, the sum of the face values is added to the economic indicator.
+If an environmental innovation is played, only half its sum is added, at the same time one point is added to the environmental indicator.
+If the innovators have both a process and a product at the same time, the effects of the innovation are doubled.
+
+> _Example_: The innovators play the pair 6 of hearts and 6 of diamonds as an economic process innovation.
+The economic indicator increases by 12 points.
+The innovators play 4 kings as a radical environmental innovation; 20 points are added to the economic indicator (4*10/2) and the environment improves by 2.
+
+If no innovation can be played, the innovators keep the cards they drew in their hands.
+
+#### 4. Consumption
+
+Each round the consumers decide if they want to consume a regular product or an environmental product, adding 5 or 3 points to the economy indicator, respectively. 
+The consumers aim maximize their consumption in accordance with their environmental preferences stated on their cards.
+
+#### 5. Evaluating the Outcomes
+
+The effects of all decision during the round are added to the indicators.
+
+#### 6. Discussion of Round and Negotiation of Next Round
+
+Each round ends with an open discussion of the events in the round.
+Were you satisfied?
+What should be done next round?
 
 ## Overview of Roles
 
@@ -62,5 +112,4 @@ Each round the consumer decides if they want to consume a regular product or an 
 | Environmental NGO | Maximize Environmental Indicator                  |                                                                    |                                |
 | Consumer          | Maximize Consumption and Environmental Preference | Consume normally for 5 coins;<br/>Consume sustainably for 3 coins. | Care {very much / some / not at all} for environment |
 
-## Instructions
 
