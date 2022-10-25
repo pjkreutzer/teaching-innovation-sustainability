@@ -9,15 +9,17 @@ While no special preparation is needed for the first seminar, the second seminar
 
 ## Required Reading
 
-
-
-@hekkert2007FunctionsInnovationSystems
+@hekkert2007FunctionsInnovationSystems propose seven functions of innovation systems.
+They will be an important reflection topic for your assignment.
 
 ## Recommended Reading
 
-@meadows2009ThinkingSystemsPrimer [chapter 4]
+@meadows2009ThinkingSystemsPrimer [chapter 4] and 
+@wieczorek2012SystemicInstrumentsSystemic are recommended as they each deepen an aspect of systems thinking related to the first seminar that might be helpful in your reflections.
 
-# References {.unnumbered}
-
-:::{#refs}
-:::
+Since none of these papers talk directly about sustainability, you will need to make the connection.
+It can be helpful to think about how different functions relate to different sustainability questions.
+Some questions to keep in mind could be:
+What assumptions about sustainability (weak versus strong) are made by the innovation systems literature?
+Are there tradeoffs between the functions of an innovation system and sustainability transitions?
+How do different functions change in their relation to sustainability over time, e.g., does one and the same function promote sustainability at one point and then limit it at another?
