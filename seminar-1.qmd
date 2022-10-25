@@ -1,0 +1,66 @@
+# Seminar 1: Inside Innovation Systems for Sustainability Transitions {.unnumbered}
+
+The goal of this seminar is to provide you with a deeper understanding of why innovation systems are useful analytical tools.
+
+## Learning Objectives
+
+### Functions of Innovation Systems
+
+- Understand and describe how the motors of change [@hekkert2007FunctionsInnovationSystems] relate to the seven innovation system functions.
+
+### Systems Thinking: Surprises of Innovation Systems
+
+- Realize bounded rationality of roles; actors can act reasonable to them but not to society
+- Delays in feedback loops make quick reactions difficult
+
+
+### Sustainability
+
+- What is sustainable needs to be consistently negotiated by stakeholders
+
+
+## Duration
+
+60 minutes of game play, 30 minutes of immediate reflection
+
+Rounds:
+
+1. Innovation goals are set
+2. Innovators draw cards
+3. Outcomes are revealed
+4. Discussion of outcomes and state of game
+5. Negotiation of innovation goals
+6. Innovation goals are set
+
+
+Each innovator draws two cards.
+They can decide if they from which pile to draw: red stands for product and black for process innovations.
+When they have a pair, the innovation adds to the scoreboard with the sum of the cards.
+When they have both a process and a product at the same time, it is doubled.
+
+
+The environmental indicator ranges from 0 - 10; from completely destroyed to a perfectly intact environment.
+It starts at 10.
+The economy indicator starts at 100 and goes from there.
+Each round the environmental indicator decreases by 10% (rounded to the nearest integer) of the economy indicator.
+Then the lobbyist and the politician decide how to fund the innovators.
+
+One card costs 5 output points (average of card deck = 7.5).
+Each new economic innovation increases the economy indicator by the sum of its numbers.
+An environmental innovation adds 1 point to the environmental indicator, but adds only half to the economic indicator.
+
+Each round the consumer decides if they want to consume a regular product or an environmental product, adding 5 or 3 points to the economy indicator, respectively. 
+
+
+
+## Overview of Roles
+
+| Role Name         | Goal                                              | Special Task                                                       | Environmental Preference       |
+|-------------------|---------------------------------------------------|--------------------------------------------------------------------|--------------------------------|
+| Politician        | Reelection                                        | Fund University Researcher                                         |                                |
+| Industry          | Maximize Economic Indicator                       | Fund Company Researchers and Decide Their Innovation Type          |                                |
+| Environmental NGO | Maximize Environmental Indicator                  |                                                                    |                                |
+| Consumer          | Maximize Consumption and Environmental Preference | Consume normally for 5 coins;<br/>Consume sustainably for 3 coins. | Care {very much / some / not at all} for environment |
+
+## Instructions
+

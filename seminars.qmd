@@ -1,0 +1,23 @@
+# Seminars
+
+The seminars aim to introduce innovation systems and sustainability transitions in a more experience based manner.
+
+The [first seminar](seminar-1.qmd) introduces innovation systems through a simulation game of a Forest Innovation System.
+The second seminar is a group discussion of individual reflections on the game and relevant literature.
+
+While no special preparation is needed for the first seminar, the second seminar requires that you have read the following.
+
+## Required Reading
+
+
+
+@hekkert2007FunctionsInnovationSystems
+
+## Recommended Reading
+
+@meadows2009ThinkingSystemsPrimer [chapter 4]
+
+# References {.unnumbered}
+
+:::{#refs}
+:::

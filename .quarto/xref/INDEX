@@ -1,0 +1,53 @@
+{
+  "index.qmd": {
+    "index.html": "ccd2b1a6"
+  },
+  "intro.qmd": {
+    "intro.html": "d6c1f4a6"
+  },
+  "summary.qmd": {
+    "summary.html": "aa5db150"
+  },
+  "references.qmd": {
+    "references.html": "b7ba1131"
+  },
+  "lecture.qmd": {
+    "lecture.html": "272c7341"
+  },
+  "lecture-slides.qmd": {
+    "lecture-slides.html": "3b9b04de"
+  },
+  "lecture-notes.qmd": {
+    "lecture-notes.html": "297daffe"
+  },
+  "seminars.qmd": {
+    "seminars.html": "4f14f874"
+  },
+  "slides-seminar-1.qmd": {
+    "slides-seminar-1.html": "637916e3"
+  },
+  "slides-seminar-2.qmd": {
+    "slides-seminar-2.html": "32548f41"
+  },
+  "additional-resources.qmd": {
+    "additional-resources.html": "a4e09cac"
+  },
+  "seminar-1.qmd": {
+    "seminar-1.html": "363ebf12"
+  },
+  "seminar-2.qmd": {
+    "seminar-2.html": "acf94028"
+  },
+  "lecture2-notes.qmd": {
+    "lecture2-notes.html": "36a9b00a"
+  },
+  "lecture1-notes.qmd": {
+    "lecture1-notes.html": "31f81876"
+  },
+  "lecture1-slides.qmd": {
+    "lecture1-slides.html": "c18467e7"
+  },
+  "lecture2-slides.qmd": {
+    "lecture2-slides.html": "975f6251"
+  }
+}
