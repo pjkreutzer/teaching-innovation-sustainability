@@ -60,7 +60,7 @@ Over the course of the game, you will:
 - consume as much as you want.
 
 The game ends after ten rounds, or if the environment is fully depleted.
-At the end of the game the special politician role faces an election.
+At the end of the game the special Government role faces an election.
 
 #### 1. Setting Innovation Goals 
 
@@ -69,10 +69,10 @@ While the university researcher is free to set their goals, the company research
 
 > _Example:_ Industry decides that they want a new economic product innovation. If the innovators can, they must play a product innovation for the economy in step 3.
 
-At this step, the industry and the politician also decide how much they want to spend on innovation in this round.
+At this step, the industry and the Government also decide how much they want to spend on innovation in this round.
 One card costs 5 points subtracted from the economic indicator.
 
-> _Example:_ The politician decides to spend 10 points. The university researcher gets to draw two cards. Industry decides to spend 20 points, it's innovators are allowed to draw 4 cards.
+> _Example:_ The Government decides to spend 10 points. The university researcher gets to draw two cards. Industry decides to spend 20 points, it's innovators are allowed to draw 4 cards.
 
 #### 2. Innovators draw cards 
 
@@ -112,7 +112,7 @@ What should be done next round?
 
 | Role Name         | Goal                                              | Special Task                                                       | Environmental Preference       |
 |-------------------|---------------------------------------------------|--------------------------------------------------------------------|--------------------------------|
-| Politician        | Reelection                                        | Fund University Researcher                                         |                                |
+| Government        | Reelection                                        | Fund University Researcher                                         |                                |
 | Industry          | Maximize Economic Indicator                       | Fund Company Researchers and Decide Their Innovation Type          |                                |
 | Environmental NGO | Maximize Environmental Indicator                  |                                                                    |                                |
 | Consumer          | Maximize Consumption and Environmental Preference | Consume normally for 5 coins;<br/>Consume sustainably for 3 coins. | Care {very much / some / not at all} for environment |
