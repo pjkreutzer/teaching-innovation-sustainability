@@ -1,34 +1,34 @@
-# Seminar 1: Inside Innovation Systems for Sustainability Transitions 
+# Seminar 1: Inside Innovation Systems for Sustainability Transitions {.unnumbered}
 
 The goal of this seminar is to provide you with a deeper understanding of why innovation systems are useful analytical tools.
 
-## Learning Objectives {.unnumbered}
+## Learning Objectives 
 
-### Functions of Innovation Systems {.unnumbered}
+### Functions of Innovation Systems 
 
 - Understand and describe how the motors of change [@hekkert2007FunctionsInnovationSystems] relate to the seven innovation system functions.
 
-### Systems Thinking: Surprises of Innovation Systems {.unnumbered}
+### Systems Thinking: Surprises of Innovation Systems 
 
 - Realize bounded rationality of roles; actors can act reasonable to them but not to society
 - Delays in feedback loops make quick reactions difficult
 
 
-### Sustainability {.unnumbered}
+### Sustainability 
 
 - Why does sustainability need to be consistently negotiated by stakeholders?
 
--How do innovation systems interact to affect sustainability?
+- How do innovation systems interact to affect sustainability?
 
 
-## Simulation Game of Innovation and Sustainability {.unnumbered}
+## Simulation Game of Innovation and Sustainability 
 
 60 minutes of game play, 30 minutes of immediate reflection
 The overall aim of the game is to simulate how an innovation system navigates innovation for sustainability.
 Each role has their own personal goals in the game.
 They are stated in the summary table below.
 
-### Description of Game Process {.unnumbered}
+### Description of Game Process 
 
 The game has ten rounds with one round taking about five minutes.
 
@@ -46,7 +46,7 @@ One representing the economy and one the environment.
 The environmental indicator ranges from 0 - 10; from completely destroyed to a perfectly intact environment.
 At the beginning of the game its value is 10.
 The economy indicator starts at 100 and develops from there.
-Each round the environmental indicator decreases by 100% (rounded to the nearest integer) of the economy indicator.
+Each round the environmental indicator decreases by 1% (rounded to the nearest integer) of the economy indicator.
 
 > _Example:_ From the outcomes of the first round the economic indicator has grown to 150.
 Therefore the environmental indicator is decreased by 2 (1.5 rounded up to the nearest full number). Round 2 begins with the indicators at 150 and 8.
@@ -62,7 +62,7 @@ Over the course of the game, you will:
 The game ends after ten rounds, or if the environment is fully depleted.
 At the end of the game the special politician role faces an election.
 
-#### 1. Setting Innovation Goals {.unnumbered}
+#### 1. Setting Innovation Goals 
 
 At the beginning of each round, the innovation goals are formulated.
 While the university researcher is free to set their goals, the company researchers have to follow the orders of the industry player.
@@ -74,12 +74,12 @@ One card costs 5 points subtracted from the economic indicator.
 
 > _Example:_ The politician decides to spend 10 points. The university researcher gets to draw two cards. Industry decides to spend 20 points, it's innovators are allowed to draw 4 cards.
 
-#### 2. Innovators draw cards {.unnumbered}
+#### 2. Innovators draw cards 
 
 Each innovator draws cards according to their budget.
 They can decide if from which pile to draw: red stands for product and black for process innovations.
 
-#### 3. Innovation {.unnumbered}
+#### 3. Innovation 
 
 When the innovators have collected a pair of cards, they can play them as an innovation.
 The innovation then adds to the scoreboards.
@@ -93,22 +93,22 @@ The innovators play 4 kings as a radical environmental innovation; 20 points are
 
 If no innovation can be played, the innovators keep the cards they drew in their hands.
 
-#### 4. Consumption {.unnumbered}
+#### 4. Consumption 
 
 Each round the consumers decide if they want to consume a regular product or an environmental product, adding 5 or 3 points to the economy indicator, respectively. 
 The consumers aim maximize their consumption in accordance with their environmental preferences stated on their cards.
 
-#### 5. Evaluating the Outcomes {.unnumbered}
+#### 5. Evaluating the Outcomes 
 
 The effects of all decision during the round are added to the indicators.
 
-#### 6. Discussion of Round and Negotiation of Next Round {.unnumbered}
+#### 6. Discussion of Round and Negotiation of Next Round 
 
 Each round ends with an open discussion of the events in the round.
 Were you satisfied?
 What should be done next round?
 
-## Overview of Roles {.unnumbered}
+## Overview of Roles 
 
 | Role Name         | Goal                                              | Special Task                                                       | Environmental Preference       |
 |-------------------|---------------------------------------------------|--------------------------------------------------------------------|--------------------------------|
