@@ -1,6 +1,9 @@
 # Seminar 1: Inside Innovation Systems for Sustainability Transitions {.unnumbered}
 
 The goal of this seminar is to provide you with a deeper understanding of why innovation systems are useful analytical tools.
+While you will have to read @hekkert2007FunctionsInnovationSystems for the assignment in [seminar 2](seminar-2.qmd), for this seminar the only reading are the game rules below.
+Please make sure that you read through and understand the rules.
+Before starting the seminar, we will clarify any questions you have.
 
 ## Learning Objectives 
 
@@ -10,23 +13,23 @@ The goal of this seminar is to provide you with a deeper understanding of why in
 
 ### Systems Thinking: Surprises of Innovation Systems 
 
-- Realize bounded rationality of roles; actors can act reasonable to them but not to society
-- Delays in feedback loops make quick reactions difficult
+- Realize bounded rationality of actors in specific roles.
+- The role that delays play in feedback loops.
 
 
 ### Sustainability 
 
-- Why does sustainability need to be consistently negotiated by stakeholders?
+- The need for sustainability to be constantly negotiated among stakeholders
 
-- How do innovation systems interact to affect sustainability?
+- How interaction in innovation systems affects sustainability objectives.
 
 
 ## Simulation Game of Innovation and Sustainability 
 
-60 minutes of game play, 30 minutes of immediate reflection
 The overall aim of the game is to simulate how an innovation system navigates innovation for sustainability.
 Each role has their own personal goals in the game.
 They are stated in the summary table below.
+
 
 ### Description of Game Process 
 
@@ -115,6 +118,6 @@ What should be done next round?
 | Government        | Reelection                                        | Fund University Researcher                                         |                                |
 | Industry          | Maximize Economic Indicator                       | Fund Company Researchers and Decide Their Innovation Type          |                                |
 | Environmental NGO | Maximize Environmental Indicator                  |                                                                    |                                |
-| Consumer          | Maximize Consumption and Environmental Preference | Consume normally for 5 coins;<br/>Consume sustainably for 3 coins. | Care {very much / some / not at all} for environment |
+| Consumer          | Maximize Consumption and Environmental Preference | Consume normally for 5 coins;<br/>Consume sustainably for 3 coins. | Care {_very much / some / not at all_} for environment |
 
 
