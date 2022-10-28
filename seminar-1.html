@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.247">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -208,13 +208,14 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<p>The goal of this seminar is to provide you with a deeper understanding of why innovation systems are useful analytical tools.</p>
+<p>The goal of this seminar is to provide you with a deeper understanding of why innovation systems are useful analytical tools. While you will have to read <span class="citation" data-cites="hekkert2007FunctionsInnovationSystems">Hekkert et al. (<a href="references.html#ref-hekkert2007FunctionsInnovationSystems" role="doc-biblioref">2007</a>)</span> for the assignment in <a href="./seminar-2.html">seminar 2</a>, for this seminar the only reading are the game rules below. Please make sure that you read through and understand the rules. Before starting the seminar, we will clarify any questions you have.</p>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <section id="functions-of-innovation-systems" class="level3">
@@ -226,21 +227,21 @@ div.csl-indent {
 <section id="systems-thinking-surprises-of-innovation-systems" class="level3">
 <h3 class="anchored" data-anchor-id="systems-thinking-surprises-of-innovation-systems">Systems Thinking: Surprises of Innovation Systems</h3>
 <ul>
-<li>Realize bounded rationality of roles; actors can act reasonable to them but not to society</li>
-<li>Delays in feedback loops make quick reactions difficult</li>
+<li>Realize bounded rationality of actors in specific roles.</li>
+<li>The role that delays play in feedback loops.</li>
 </ul>
 </section>
 <section id="sustainability" class="level3">
 <h3 class="anchored" data-anchor-id="sustainability">Sustainability</h3>
 <ul>
-<li><p>Why does sustainability need to be consistently negotiated by stakeholders?</p></li>
-<li><p>How do innovation systems interact to affect sustainability?</p></li>
+<li><p>The need for sustainability to be constantly negotiated among stakeholders</p></li>
+<li><p>How interaction in innovation systems affects sustainability objectives.</p></li>
 </ul>
 </section>
 </section>
 <section id="simulation-game-of-innovation-and-sustainability" class="level2">
 <h2 class="anchored" data-anchor-id="simulation-game-of-innovation-and-sustainability">Simulation Game of Innovation and Sustainability</h2>
-<p>60 minutes of game play, 30 minutes of immediate reflection The overall aim of the game is to simulate how an innovation system navigates innovation for sustainability. Each role has their own personal goals in the game. They are stated in the summary table below.</p>
+<p>The overall aim of the game is to simulate how an innovation system navigates innovation for sustainability. Each role has their own personal goals in the game. They are stated in the summary table below.</p>
 <section id="description-of-game-process" class="level3">
 <h3 class="anchored" data-anchor-id="description-of-game-process">Description of Game Process</h3>
 <p>The game has ten rounds with one round taking about five minutes.</p>
@@ -341,7 +342,7 @@ div.csl-indent {
 <td>Consumer</td>
 <td>Maximize Consumption and Environmental Preference</td>
 <td>Consume normally for 5 coins;<br>Consume sustainably for 3 coins.</td>
-<td>Care {very much / some / not at all} for environment</td>
+<td>Care {<em>very much / some / not at all</em>} for environment</td>
 </tr>
 </tbody>
 </table>
@@ -396,7 +397,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -432,24 +450,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

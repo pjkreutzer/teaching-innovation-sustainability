@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.247">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -192,6 +192,7 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -199,13 +200,13 @@ div.csl-indent {
 </header>
 
 <p>In this seminar you will present and discuss your individual reflections on the previous seminars game. The paper should cover a brief explanation of your role in the game, and then use the reading assigned for this seminar to reflect on innovation systems for sustainability transitions.</p>
-<p>Aim to answer these questions:</p>
+<p>Some questions to help your reflections are:</p>
 <ol type="1">
-<li>Which systems functions, discussed in <span class="citation" data-cites="hekkert2007FunctionsInnovationSystems">Hekkert et al. (<a href="references.html#ref-hekkert2007FunctionsInnovationSystems" role="doc-biblioref">2007</a>)</span> were fulfilled (how?)? Keep in mind, that this was only a simulation so some functions could not be observed.</li>
-<li>second</li>
-<li>third</li>
+<li>Which systems functions, discussed in <span class="citation" data-cites="hekkert2007FunctionsInnovationSystems">Hekkert et al. (<a href="references.html#ref-hekkert2007FunctionsInnovationSystems" role="doc-biblioref">2007</a>)</span> were fulfilled (how?)? If there were functions that you did not identify, is that due to the game’s design, or some other reason?</li>
+<li>What surprised you in the way the game unfolded? Were there critical moments in which the game could have developed differently?</li>
+<li>How did you find your way into your role? Was it easy for you to adapt to the role, or did you have difficulties? Did you behave the way you did in the game because of the role you assumed? If yes, what made you behave inline with the role? If not, why did you not behave in line with the role?</li>
 </ol>
-<p>It is not important that you answer all of them. They are meant as guidance rather than expectations. What matters is that you present some thought about innovation systems literature and your personal experience in the first seminar.</p>
+<p>It is not important that you answer all of them, or any for that matter. They are meant as guidance rather than expectations. If you have another aspect that you would like to reflect upon, please do. The important part is that you present some thought about innovation systems literature and your personal experience in the first seminar.</p>
 <div class="callout-important callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -221,12 +222,15 @@ Important
 </div>
 </div>
 <p>During the seminar you will first discuss your reflections in small groups of up to five people. Please make sure to read the reflections of others before hand. At the end we will discuss your reflections together.</p>
-<p><span class="citation" data-cites="wieczorek2012SystemicInstrumentsSystemic">Wieczorek and Hekkert (<a href="references.html#ref-wieczorek2012SystemicInstrumentsSystemic" role="doc-biblioref">2012</a>)</span> <span class="citation" data-cites="hekkert2007FunctionsInnovationSystems">Hekkert et al. (<a href="references.html#ref-hekkert2007FunctionsInnovationSystems" role="doc-biblioref">2007</a>)</span></p>
+<p>Apart from the required reading you may find these <span class="citation" data-cites="wieczorek2012SystemicInstrumentsSystemic">Wieczorek and Hekkert (<a href="references.html#ref-wieczorek2012SystemicInstrumentsSystemic" role="doc-biblioref">2012</a>)</span> helpful for a deeper understanding of influencing innovation systems. While the entire book <em>Thinking in Systems: A Primer</em> by <span class="citation" data-cites="meadows2009ThinkingSystemsPrimer">Meadows (<a href="references.html#ref-meadows2009ThinkingSystemsPrimer" role="doc-biblioref">2009</a>)</span> is a great read, for this reflection you may find chapter 4 <em>Why Systems Surprise Us</em> particularly helpful.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
 <div id="ref-hekkert2007FunctionsInnovationSystems" class="csl-entry" role="doc-biblioentry">
 Hekkert, M. P., R. A. A. Suurs, S. O. Negro, S. Kuhlmann, and R. E. H. M. Smits. 2007. <span>“Functions of Innovation Systems: <span>A</span> New Approach for Analysing Technological Change.”</span> <em>Technological Forecasting and Social Change</em> 74 (4): 413–32. <a href="https://doi.org/10.1016/j.techfore.2006.03.002">https://doi.org/10.1016/j.techfore.2006.03.002</a>.
+</div>
+<div id="ref-meadows2009ThinkingSystemsPrimer" class="csl-entry" role="doc-biblioentry">
+Meadows, Donella H. 2009. <em>Thinking in Systems: A Primer</em>. <span>London</span>: <span>Earthscan</span>.
 </div>
 <div id="ref-wieczorek2012SystemicInstrumentsSystemic" class="csl-entry" role="doc-biblioentry">
 Wieczorek, Anna J., and Marko P. Hekkert. 2012. <span>“Systemic Instruments for Systemic Innovation Problems: <span>A</span> Framework for Policy Makers and Innovation Scholars.”</span> <em>Science and Public Policy</em> 39 (1): 74–87. <a href="https://doi.org/10.1093/scipol/scr008">https://doi.org/10.1093/scipol/scr008</a>.
@@ -275,7 +279,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -311,24 +332,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
