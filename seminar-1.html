@@ -254,7 +254,7 @@ div.csl-indent {
 <li>Discussion of outcomes and state of game</li>
 <li>Negotiation of innovation goals</li>
 </ol>
-<p>There are two indicators that everyone in the game can see and influence. One representing the economy and one the environment. The environmental indicator ranges from 0 - 10; from completely destroyed to a perfectly intact environment. At the beginning of the game its value is 10. The economy indicator starts at 100 and develops from there. Each round the environmental indicator decreases by 1% (rounded to the nearest integer) of the economy indicator.</p>
+<p>There are two indicators that everyone in the game can see and influence. One representing the economy and one the environment. The environmental indicator ranges from 0 - 10; from completely destroyed to a perfectly intact environment. At the beginning of the game its value is 10. The economy indicator starts at 100 and develops from there. Each round the environmental indicator decreases by 1% (rounded to the nearest integer) of the economy indicator. Since there is no free lunch, the environment degrades by 1 point even if the economy is less than 50 points.</p>
 <blockquote class="blockquote">
 <p><em>Example:</em> From the outcomes of the first round the economic indicator has grown to 150. Therefore the environmental indicator is decreased by 2 (1.5 rounded up to the nearest full number). Round 2 begins with the indicators at 150 and 8.</p>
 </blockquote>
@@ -264,7 +264,7 @@ div.csl-indent {
 <li><p>innovate by playing matching cards;</p></li>
 <li><p>consume as much as you want.</p></li>
 </ul>
-<p>The game ends after ten rounds, or if the environment is fully depleted. Every five rounds of the game the special Government role faces an election.</p>
+<p>The game ends after ten rounds, if the environment is fully depleted, or if the economy is negative for two rounds. Every five rounds, the Government role faces an election. In the election, all citizens get one open vote. If the government is not re-elected, another player can be nominated and voted in instead.</p>
 <section id="setting-innovation-goals" class="level4">
 <h4 class="anchored" data-anchor-id="setting-innovation-goals">1. Setting Innovation Goals</h4>
 <p>At the beginning of each round, the innovation goals are formulated. While the university researcher is free to set their goals, the company researchers have to follow the orders of the industry player.</p>
@@ -282,15 +282,15 @@ div.csl-indent {
 </section>
 <section id="innovation" class="level4">
 <h4 class="anchored" data-anchor-id="innovation">3. Innovation</h4>
-<p>When the innovators have collected a pair of cards, they can play them as an innovation. The innovation then adds to the scoreboards. For an economic innovation, the sum of the face values is added to the economic indicator. If an environmental innovation is played, only half its sum is added, at the same time one point is added to the environmental indicator. If the innovators have both a process and a product at the same time, the effects of the innovation are doubled.</p>
+<p>When the innovators have collected a pair of cards in the same color (red, black), they can play them as an innovation. The innovation then adds to the scoreboards. For an economic innovation, twice the sum of the face values is added to the economic indicator (Aces count as 1, J,Q,K as ten). If an environmental innovation is played, only its sum is added, at the same time one point is added to the environmental indicator. If the innovators have both a process and a product at the same time, the effects of the innovation are doubled.</p>
 <blockquote class="blockquote">
-<p><em>Example:</em> The innovators play the pair 6 of hearts and 6 of diamonds as an economic process innovation. The economic indicator increases by 12 points. The innovators play 4 kings as a radical environmental innovation; 20 points are added to the economic indicator (4*10/2) and the environment improves by 2.</p>
+<p><em>Example:</em> The innovators play the pair 6 of hearts and 6 of diamonds as an economic process innovation. The economic indicator increases by 24 points. The innovators play 4 kings as a radical environmental innovation; 40 points are added to the economic indicator (4*10) and the environment improves by 2.</p>
 </blockquote>
 <p>If no innovation can be played, the innovators keep the cards they drew in their hands.</p>
 </section>
 <section id="consumption" class="level4">
 <h4 class="anchored" data-anchor-id="consumption">4. Consumption</h4>
-<p>Each round the consumers decide if they want to consume a regular product or an environmental product, adding 5 or 3 points to the economy indicator, respectively. The consumers aim maximize their consumption in accordance with their environmental preferences stated on their cards.</p>
+<p>Each round the citizens decide if they want to consume a regular product or an environmental product, adding 5 or 3 points to the economy indicator, respectively. The citizens aim to maximize their consumption in accordance with their environmental preferences stated on their cards. They also have different preferences for the state of the economy.</p>
 </section>
 <section id="evaluating-the-outcomes" class="level4">
 <h4 class="anchored" data-anchor-id="evaluating-the-outcomes">5. Evaluating the Outcomes</h4>
@@ -351,10 +351,10 @@ div.csl-indent {
 <td></td>
 </tr>
 <tr class="even">
-<td>Consumer</td>
+<td>Citizen</td>
 <td>Maximize Consumption and Environmental Preference</td>
 <td>Consume normally for 5 coins;<br>Consume sustainably for 3 coins.</td>
-<td>Care {<em>very much / some / not at all</em>} for environment</td>
+<td>Care {<em>very much / some / not at all</em>} for {the environment / about the economy}.</td>
 </tr>
 </tbody>
 </table>
