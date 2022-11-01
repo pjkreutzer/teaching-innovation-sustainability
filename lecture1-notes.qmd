@@ -10,7 +10,8 @@ date-format: long
 This lecture covers two influential theories of innovation for sustainability.
 
 
-:::{.callout-note appearance="simple"}
+:::{.callout-note}
+
 ### Lecture Summary
 
 This lecture introduces innovation as a driver of change in socio-technical systems.
@@ -21,6 +22,7 @@ Finally, we begin a discussion of how sustainability enters this topic.
 :::
 
 :::{.callout-tip}
+
 ## Learning Objectives
 
 1. Know Mission Innovation Policy and MLP; describe characteristics, differences, and similarities between approaches
@@ -32,8 +34,9 @@ Finally, we begin a discussion of how sustainability enters this topic.
 ## Theory and Current Research
 (20 min)
 
-
 In recent years the focus of innovation policy has shifted.
+
+<!-- TODO: add definition of socio-technical systems -->
 @schot2018ThreeFramesInnovation highlight three frames of innovation.
 
 The first step, is innovation as a public good which standard neoclassical theory suggests will be under supplied.
@@ -44,7 +47,21 @@ For example, by providing networking events, or creating collaboration programs.
 
 The third and most recent frame is that of innovation as means to achieve social transformation.
 
+:::{.callout-caution}
+
+## {{< fa regular circle-question >}} Reading Question
+
+What do you think about the three frames for innovation?
+Do they build on one another, or do they replace the previous?
+
+@schot2018ThreeFramesInnovation mention the three frames in the context of STI (Science, Technology and Innovation) policy.
+At a seminar someone remarks that all these three are indeed very different and need different policy.
+What do you respond?
+
+:::
+
 ::: {.callout-note}
+
 ## Transition or Transformation
 
 Note that in the literature transition and transformation are used differently by different authors.
@@ -58,8 +75,37 @@ The socio-technical regime responds by moving development paths and innovation i
 
 :::
 
-This begs the question, why we need transformative change.
-In short, there is a large need
+A quick note already on why we may want transformative change.
+
+<!-- TODO: add image and section about planetary boundaries here -->
+
+Therefore, transformative change must be in the direction of sustainability.
+While we will cover what sustainability means for innovation more in my next lecture, I do want to quickly introduce three different ways of thinking about sustainability here.
+
+<!-- TODO: find citation of pillars, nested and mickey mouse model -->
+<!-- TODO: draw simple picture of each -->
+
+::::{columns}
+
+:::{column width=33%}
+
+![Mickey Mouse](){#fig-}
+
+:::
+add
+:::{column width=33%}
+
+![Nested](){#fig-}
+
+:::
+
+:::{column width=33%}
+
+![Pillars](){#fig-}
+
+:::
+
+::::
 
 @haddad2022TransformativeInnovationPolicy
 @schot2018ThreeFramesInnovation
@@ -68,15 +114,36 @@ What are the central challenges with innovation policy for sustainability?
 Change transitions or transformations?
 Context of change matters
 
+
 ## Top down change policy
 (20 min)
 
 @mazzucato2018MissionorientedInnovationPolicies 
 
+::: {.callout-caution icon="false"}
+
+## {{< fa regular circle-question >}} Reading Question
+
+@schot2018ThreeFramesInnovation question briefly wether transformative change is too ambitious of a target for STI policy.
+What do you think?
+
+What do you think @mazzucato2018MissionorientedInnovationPolicies responds to the question?
+
+:::
+
+
 Direction given by state, question of selection
 
 Does this type of innovation policy try to pick winners?
 Not according to mazzucato
+
+::: {.callout-caution icon="false"}
+
+@mazzucato2018MissionorientedInnovationPolicies argues the government should take a more proactive role in innovation.
+@schot2018ThreeFramesInnovation state that the third innovation frame requires "[inclusively] deliberating and exploring ... social and environmental goals and underlying values" (p. 1563-1564).
+Are these combinable?
+
+:::
 
 Picking the willing
 
