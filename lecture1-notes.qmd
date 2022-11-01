@@ -32,6 +32,35 @@ Finally, we begin a discussion of how sustainability enters this topic.
 ## Theory and Current Research
 (20 min)
 
+
+In recent years the focus of innovation policy has shifted.
+@schot2018ThreeFramesInnovation highlight three frames of innovation.
+
+The first step, is innovation as a public good which standard neoclassical theory suggests will be under supplied.
+
+The second frame focuses on innovation from a systemic perspective.
+Failure to provide innovation at a desired level is countered with systemic intervention.
+For example, by providing networking events, or creating collaboration programs.
+
+The third and most recent frame is that of innovation as means to achieve social transformation.
+
+::: {.callout-note}
+## Transition or Transformation
+
+Note that in the literature transition and transformation are used differently by different authors.
+
+In the transformation literature, transitions are a fluent change towards slightly improved but fundamentally consistent systems.
+Transformations, on the other hand are fundamentally different, radical and non-linear changes to a system @roggema2012TransitionTransformation.
+
+In the literature we are focusing on, transformations are one possible pathway for transitions @geels2007TypologySociotechnicalTransition.
+Transformations happen when there is moderate landscape pressure on the regime.
+The socio-technical regime responds by moving development paths and innovation into the direction of the pressure.
+
+:::
+
+This begs the question, why we need transformative change.
+In short, there is a large need
+
 @haddad2022TransformativeInnovationPolicy
 @schot2018ThreeFramesInnovation
 What are the central challenges with innovation policy for sustainability?
