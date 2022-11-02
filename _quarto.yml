@@ -16,6 +16,7 @@ book:
         - lecture2-slides.qmd
     - part: seminars.qmd
       chapters:
+         - seminar-facilitator.qmd
          - seminar-1.qmd
          - seminar-2.qmd
     - references.qmd
