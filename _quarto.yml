@@ -11,7 +11,7 @@ book:
     - part: lectures.qmd
       chapters:
         - lecture1-notes.qmd
-        - lecture1-slides.qmd
+        - lecture1-slides.html
         - lecture2-notes.qmd
         - lecture2-slides.qmd
     - part: seminars.qmd

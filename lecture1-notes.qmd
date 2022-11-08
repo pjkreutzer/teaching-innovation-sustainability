@@ -94,6 +94,25 @@ This requires more than new products or processes.
 Above the water level, the most visible part of the iceberg, are organizational and technological innovations.
 Organizational innovations include changes in management, or strategy.
 Examples of technological innovation are both new processes and products.
+
+::: {.callout-tip}
+
+## Example Technology Innovations
+
+The fairphone, or IKEA's better shelter are examples of product innovations.
+Process innovations include examples such as the app Too Good To Go.
+
+:::
+
+::: {.callout-tip}
+
+## Example Organizational Innovations
+
+Corporate Social Responsibility Reports are an example of organizational innovations.
+Another example are carbon emission audits.
+
+:::
+
 The first level below the water line are social and formal intuitions.
 Innovations at this level are, for example, changes in lifestyle or consumer behaviors -- these are social in nature -- or changes in laws, regulations etc.
 The deepest and most invisible level in this metaphor are innovations in informal institutions.
@@ -142,6 +161,8 @@ These two lectures draw heavily from her previous work with this course.
 She argues that the grand-challenges of our time need to be taken on by states.
 Since the 1950s, the impact human activity has on the environment has rapidly increased in what is often referred to as the Great Acceleration [@fig-fig-great-acceleration @steffen2011AnthropoceneGlobalChange].
 
+
+### The Scale of Challenges Is Grand
 
 ::: {#fig-great-acceleration layout-ncol=2}
 
@@ -211,22 +232,118 @@ If you are looking for a more in-depth exploration of mission economy thinking, 
 
 :::
 
-## Bottom up change policy
-(20 min)
+## Bottom Up Change Policy -- Mulit-Level Perspective
 
-@weber2012LegitimizingResearchTechnology
+One of the most influential theories in transition studies is the Multi-level perspective.
+The MLP is deeply routed in Science, Technology and Society Studies, Evolutionary Economics and draws heavily on historical case studies.
+It is compromised of three analytical concepts:
+the landscape, socio-technical regimes and niche-innovation [@geels2007TypologySociotechnicalTransition].
+@fig-mlp depicts an often used sketch illustration of how these concepts interact.
 
-MLP and steering -- questions of direction
+Let us step through it from the top to the bottom.
 
-< 5 min break >
+::: {.callout-caution icon="false"}
+
+## {{< fa regular circle-question >}} Reading Question
+
+1. What is the landscape?
+2. What is the regime?
+3. What is the niche?
+
+:::
+
+The sociotechnical _landscape_ forms the exogenous background against which niche and regime actors operate.
+The events here are outside of the immediate control of both the regime and the niche, often unfold over long time horizons but exert pressure on the regime [@geels2007TypologySociotechnicalTransition].
+When you think of landscape, think about deep cultural patterns, macro-political developments etc.
+
+The sociotechnical regime is routed in the evolutionary economic work of Nelson and Winters 1982
+<!-- TODO: add citation -->
+technological regimes.
+Sociotechnical regimes are shared cognitive routines of all those involved with a given technology.
+This includes users, policy makers, as well as companies and engineers [@geels2007TypologySociotechnicalTransition].
+
+Niche innovation are novel, initially unstable configurations developed at the micro level.
+Often they are developed by small networks of agents at the periphery of a system.
+
+### Definition of Transition
+
+::: {.callout-note}
+
+## Definition
+
+A **transition** is a
+
+> radical, structural change of a  societal subsystem that is the result of co-evolution of economic, cultural, technological, ecological and institutional developments at different scale-levels.[@grin2010TransitionsSustainableDevelopment 108]
+ 
+:::
+
+::: {.callout-note}
+
+## Definition
+
+Ontologies are specifications of conceptualizations.
+They express particular theories about things that exist.
+ 
+:::
 
 
-< 5 min break >
-## Session 4 -- Discussion and Reflection
-(20 min)
+### Transition Typologies
 
-Many of sustainability challenges are interconnected.
-Solving one, while ignoring another 
+| Transition pathways | Main actors | Type of (inter)actions | Key words |
+|---|---|---|---|
+| 1. Transformation | Regime actors and outside groups (social movements) | Outsiders voice criticism. Incumbent actors adjust regime rules (goals, guiding principles, search heuristics) | Outside pressure, institutional power struggles, negotiations, adjustment of regime rules |
+| 2. Technological substitution | Incumbent firms versus new firms | Newcomers develop novelties, which compete with regime technologies | Market competition and power struggles between old and new firms |
+| 3. Reconfiguration | Regime actors and suppliers | Regime actors adopt component-innovations, developed by new suppliers. Competition between old and new suppliers | Cumulative  component changes, because of economic and functional reasons. Followed  by new combinations, changing interpretations and new practices |
+| 4. De-alignment and re-alignment | New niche actors | Changes in deep structures create strong pressure on regime. Incumbents lose faith and legitimacy. Followed by emergence of multiple  novelties. New entrants compete for resources, attention and  legitimacy. Eventually one novelty wins, leading to restabilisation of  regime | Erosion and collapse, multiple novelties, prolonged uncertainty and changing interpretations, new winner and restabilisation |
+: Overview of Transition Typologies [@geels2007TypologySociotechnicalTransition p. 414]
+
+A current example:
+
+The invasion of Ukraine is a drastic and sudden change in the landscape.
+The socio-technical regime of, for example, Germany was surprised by this sudden development.
+We will see how this development plays out.
+But for now it looks as if there is no alternative idea ready enough in Germany to replace the dominant gas-regime.
+Instead the regime is going to great lengths to uphold the status-quo.
+Thereby also not following the proposed de- and re-alignment path.
+
+
+The MLP as well as innovation systems at their various scales have become backdrops against which research is being carried out [@truffer2022PerspectiveFutureSustainability].
+This does not mean that they have become less influential -- far from it -- but rather that they are not necessarily referenced in the precise manner in which they were conceived.
+For my own research, as an example, the ideas of a regime resisting change is influential.
+But rather than viewing niche innovations as the main source of change, I am interested in how the regime is influencing the directionality setting (i.e., legitimizing visions) of the transition.
+We will come back to these questions in the second lecture, were we will be looking at the emerging bioeconomy and what sustainability means for transitions.
+
+Because the MLP puts such an heavy emphasis on innovation from protected niches, early ideas focused on strategic niche management (SNM) [@geels2007TypologySociotechnicalTransition].
+Later iterations have focused more on other aspects of the model, such as regime and landscape changes.
+
+::: {.callout-caution icon="false"}
+
+## {{< fa regular circle-question >}} Reading Question
+
+The assigned reading @geels2011MultilevelPerspectiveSustainability responds to several criticisms presented towards the MLP for sustainability transitions.
+Do you think they were convincingly refuted?
+If not, why not?
+
+:::
+
+
+### Current Questions
+
+While the origins of the model are fading from citations to some extent [@truffer2022PerspectiveFutureSustainability], they still form an influential shared knowledge base for transition studies.
+Many questions are still being explored with the MLP framework, which we will not cover here.
+Example questions on the agenda are how to destabilize regimes [e.g., @frank2022ThreePerspectivesRegime], how multiple regimes interact [e.g., @rosenbloom2020EngagingMultisystemInteractions], and how regimes interact at different scales [e.g., @fuenfschilling2018GlobalSociotechnicalRegimes].
+
+##  Discussion and Reflection
+
+Using innovation to address grand challenges, sustainability or wicked problems, is surely needed.
+But not in the traditional way of thinking about innovation as a neutral at worst and positive at best force.
+Recasting innovation as synonymous with change and capable of deeply transforming our society opens new ways for policy makers.
+
+Transformative innovation policy agrees that shared visions are needed and that they ought to be legitimized by broad participation [@haddad2022TransformativeInnovationPolicy].
+But the question of how to do that is remains a central challenge.
+Even within highly mature innovation systems such as NIS in EU states or the US, the question of how to govern transition innovation policy is far from answered.
+In addition, some authors have already pointed out that innovation research itself needs to become more diverse [e.g., @preuss2021DiversityTransitionTransitions].
+
 
 ::: {.callout-caution icon="false"}
 
