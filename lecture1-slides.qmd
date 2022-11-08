@@ -1,0 +1,204 @@
+---
+title:  Innovation for Sustainability
+subtitle: Frames, Missions and Transitions
+author: Jonas Kreutzer
+date: last-modified
+date-format: long
+bibliography: '../../materials/references.bib'
+from: markdown+emoji
+format:
+  revealjs: 
+    embed-resources: true
+    theme: [default, ../theme.scss]
+    center: true
+    transition: none
+    self-contained: true
+    title-slide-attributes:
+      data-background-image: assets/punk.jpg
+      data-background-size: auto
+      data-background-opacity: "0.5"
+    revealjs-plugins:
+      - attribution
+
+---
+
+
+<!-- 
+5 min breaks
+
+20 Innovation Frames
+break
+20 Mission Innovation
+break
+20 MLP
+break
+ -->
+
+
+:::{.callout-tip}
+
+### Learning Objectives 
+
+1. Three Innovation Frames
+2. Mission Oriented Innovation Policy and Multi-Level Perspective
+3. Innovation in Transitions
+
+:::
+
+# Three Innovation Frames
+
+## Innovation Types
+
+## Innovation for what?
+
+![](https://www.stockholmresilience.org/images/200.50f686c4182e8f93c1195e/1663679935666/PB_2022_green%20water.png){#fig-boundaries fig-alt="The nine planetary boundaries shown as a radial graph. Five are overshooting the safe operating space."}
+
+[(Azote for Stockholm Resilience Centre, <br> based on analysis in @wang-erlandsson2022PlanetaryBoundaryGreen)]{.slide-cite style="font-size: x-small"}
+
+
+## Innovation for what?
+
+{{< qrcode https://www.coursera.org/learn/working-for-a-sustainable-future  width=500 height=500 style="display=block">}}
+
+Highly recommend the MOOC 
+ ["Working for a sustainable future: concepts and approaches"](https://www.coursera.org/learn/working-for-a-sustainable-future)
+
+# Misson Oriented <br> Innovation <br> Policy (MOIP){#MOIP data-menu-title="Mission Oriented Policy" background-image="https://images-assets.nasa.gov/image/NHQ202211040019/NHQ202211040019~medium.jpg" background-position="right" background-size="contain" style="color: #0a1d3b;"}
+
+:::{.attribution style="color:white"}
+
+image credit:  (NASA/Joel Kowsky) 
+
+:::
+
+
+## Scale of Sustainability Problems
+
+::::{.columns}
+:::{.column width="50%"}
+![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs13280-011-0185-x/MediaObjects/13280_2011_185_Fig3_HTML.gif?as=webp)
+:::
+:::{.column width="50%"}
+![](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs13280-011-0185-x/MediaObjects/13280_2011_185_Fig1a_HTML.gif?as=webp)
+:::
+::::
+
+[@steffen2011AnthropoceneGlobalChange]{.slide-cite style="font-size: small"}
+
+
+##
+
+::::{.columns}
+
+
+:::{.column width="30%"}
+
+![](assets/helmut_schmidt.jpg){fig-align="left"}
+
+:::
+
+:::{.column width="70%"}
+
+>If you have visions you should go see a doctor
+
+:::
+
+
+::::
+
+
+
+# Multi-Level Perspective
+
+##
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0048733302000628-gr5.gif){#fig-mlp fig-alt="The Multi-Level Perspective of @geels2007TypologySociotechnicalTransition. At the top wavy lines, to the left the annotation  Landscape developments. In the middle a diamond shape its corners annotated with 'Industrial Networks, strategic games; techno-scientific knowledge; culture, symbolic meaning; infrastructure; sectoral policy; markets, user practices; technology. On the left margin the annotation 'Socio-technical regimes'. From the shape arrows point to the right. In the middle these arrows are interrupted by a thick line coming form the bottom. On the right hand side the diamond shape is formed differently. The diamond is connected to the landscape waves above by arrows pointing in both directions. The same arrows are at the bottom. The bottom row has an annotation on the left reading 'Technological niches'. From right to left we see small arrows forming the thick line interrupting the regime. A small group of arrows labeled 'failed innovation' moves first up, then down, without forming a thick line. In the right bottom corner an arrow moving right to left is labelled 'Time'."}
+
+[@geels2007TypologySociotechnicalTransition]{.slide-cite style="font-size:small"}
+
+::: {.notes}
+
+Let people step through, explaining to one another.
+
+:::
+
+## Typology of Transitions
+
+---
+
+### Transformation
+
+::: {.notes}
+
+>Transformation path: If there is moderate landscape pressure (‘disruptive change’) at a moment when niche-innovations have not yet been sufficiently developed, then regime actors will respond by modifying the direction of development paths and innovation activities.
+[@geels2007TypologySociotechnicalTransition 406]
+
+:::
+
+---
+
+### Technological Substitution
+
+:::{.notes}
+
+>Technological substitution: If there is much landscape pressure (‘specific shock’, ‘avalanche change’, ‘disruptive change’) at a moment when nicheinnovations have developed sufficiently, the latter will break through and replace the existing regime.
+[@geels2007TypologySociotechnicalTransition 409]
+
+:::
+
+
+---
+
+### Reconfiguration
+
+::: {.notes}
+
+>Reconfiguration pathway: Symbiotic innovations, which developed in niches, are initially adopted in the regime to solve local problems. They subsequently trigger further adjustments in the basic architecture of the regime.
+[@geels2007TypologySociotechnicalTransition 412]
+
+:::
+
+---
+
+### De-alignment and Re-alignment
+
+::: {.notes}
+
+>De-alignment and re-alignment path: If landscape change is divergent, large and sudden (‘avalanche change’), then increasing regime problems may cause regime actors to lose faith. This leads to de-alignment and erosion of the regime. If niche-innovations are not sufficiently developed, then there is no clear substitute. This creates space for the emergence of multiple nicheinnovations that co-exist and compete for attention and resources. Eventually, one niche-innovation becomes dominant, forming the core for re-alignment of a new regime.
+[@geels2007TypologySociotechnicalTransition 408]
+:::
+
+## Current Questions
+
+# Context
+
+## Time, Scale and Context Matters
+
+##
+
+:::{.callout-tip}
+
+### Learning Objectives 
+
+1. Three Innovation Frames
+2. Mission Oriented Innovation Policy and Multi-Level Perspective
+3. Innovation in Transitions
+
+:::
+
+## Innovation policy is not only economic policy. It is society policy.
+
+##
+
+:::{.callout-tip}
+
+Further reading @chaminade2018AdvancedIntroductionNational _
+Advanced Introduction to National Innovation Systems_
+
+:::
+
+## References
+
+:::{.references}
+
+:::
