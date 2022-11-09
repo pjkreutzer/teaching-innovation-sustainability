@@ -36,5 +36,39 @@ During the seminar you will first discuss your reflections in small groups of up
 Please make sure to read the reflections of others before hand.
 At the end we will discuss your reflections together.
 
+::: {.panel-tabset}
+
+## Small Group 
+
+### Questions on the reflection
+
+1. How was it to reflect on the game? What came easy, what did not?
+2. Were you surprised by something in the reflections you read?
+3. If you had the same (or similar) roles, do you recognize the others experiences? Where are your own reflections different? Why do you think this is the case?
+4. If you had different roles, do the reflections fit into what you thought about the other persons role both during and after the game?
+
+### Questions on System Functions
+
+1. Do you agree with the analysis of systems functions in your small group?
+2. Are there functions that you struggle with (in understanding or in applying)? 
+
+
+## Large Group
+ 
+1. Did others in your small group feel different about the easiness of reflection than you did?
+2. How similar were your reflections in the small groups?
+3. Has your discussion prompted some new insight, either regarding your own reflection or the system function?
+
+### Questions on System Functions
+
+1. If we think back to the iceberg heuristic, can we identify new or different ways in which functions were fulfilled?
+2. 
+3.
+
+
+:::
+
+
+
 Apart from the required reading you may find @wieczorek2012SystemicInstrumentsSystemic helpful for a deeper understanding of influencing innovation systems.
 While the entire book _Thinking in Systems: A Primer_ by @meadows2009ThinkingSystemsPrimer is a great read, for this reflection you may find chapter 4 _Why Systems Surprise Us_ particularly helpful.
