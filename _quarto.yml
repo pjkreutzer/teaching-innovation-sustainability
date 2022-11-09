@@ -10,7 +10,7 @@ book:
     - index.qmd
     - part: lectures.qmd
       chapters:
-        # - lecture1-notes.qmd
+        - lecture1-notes.qmd
         - lecture1-slides.html
         - lecture2-notes.qmd
         - lecture2-slides.qmd
