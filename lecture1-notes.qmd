@@ -7,6 +7,7 @@ date-format: long
 # Lecture Notes
 
 These notes accompany the lecture "Innovation for Sustainability Transitions" held at Lund University on November 8th, 2022.
+You can find the slides <a href="https://pjkreutzer.github.io/files/221108-lecture-slides.html#/title-slide" target="_blank" rel="noopener"> here </a>.
 
 :::{.callout-note}
 
@@ -275,6 +276,9 @@ The MLP is deeply routed in Science, Technology and Society Studies, Evolutionar
 It is compromised of three analytical concepts:
 the landscape, socio-technical regimes and niche-innovation [@geels2007TypologySociotechnicalTransition].
 @fig-mlp depicts an often used sketch illustration of how these concepts interact.
+
+
+![The Multi-Level Perspective Reprinted from @geels200TechnologicalTransitionsEvolutionary p. 28](https://ars.els-cdn.com/content/image/1-s2.0-S2210422411000050-gr2.jpg){#fig-mlp fig-alt="The Multi-Level Perspective of @geels2007TypologySociotechnicalTransition. At the top wavy lines, to the left the annotation  Landscape developments. In the middle a diamond shape its corners annotated with 'Industrial Networks, strategic games; techno-scientific knowledge; culture, symbolic meaning; infrastructure; sectoral policy; markets, user practices; technology. On the left margin the annotation 'Socio-technical regimes'. From the shape arrows point to the right. In the middle these arrows are interrupted by a thick line coming form the bottom. On the right hand side the diamond shape is formed differently. The diamond is connected to the landscape waves above by arrows pointing in both directions. The same arrows are at the bottom. The bottom row has an annotation on the left reading 'Technological niches'. From right to left we see small arrows forming the thick line interrupting the regime. A small group of arrows labeled 'failed innovation' moves first up, then down, without forming a thick line. In the right bottom corner an arrow moving right to left is labelled 'Time'."}
 
 Let us step through it from the top to the bottom.
 
