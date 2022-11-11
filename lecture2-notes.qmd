@@ -37,6 +37,35 @@ Do we know what to solve?
 
 If there are too few other lectures where the natural science basis of sustainability challenges are introduced, this might be an opportunity to catch up a bit.
 
+
+Therefore, transformative change must be in the direction of sustainability.
+While we will cover what sustainability means for innovation more in my next lecture, I do want to quickly introduce three different ways of thinking about sustainability here.
+
+<!-- TODO: find citation of pillars, nested and mickey mouse model -->
+<!-- TODO: draw simple picture of each -->
+
+::::{columns}
+
+:::{column width=33%}
+
+![Mickey Mouse](){#fig-}
+
+:::
+add
+:::{column width=33%}
+
+![Nested](){#fig-}
+
+:::
+
+:::{column width=33%}
+
+![Pillars](){#fig-}
+
+:::
+
+::::
+
 Literature 
 @steffen2015PlanetaryBoundariesGuiding
 @steffen2011AnthropoceneGlobalChange
@@ -49,7 +78,14 @@ Do we know _how_ to solve?
 @otto2020SocialTippingDynamics
 @unruh2000UnderstandingCarbonLockin
 
+::: {.callout-caution icon="false"}
 
+## {{< fa regular circle-question >}} Reading Question
+
+What do you think about the three frames from a sustainability perspective?
+Base your answer on @schot2018ThreeFramesInnovation.
+
+:::
 
 
 
