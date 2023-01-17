@@ -1,0 +1,109 @@
+---
+title: "Notes for Lecture on Innovation for Sustainability Transitions"
+date: last-modified
+date-format: long
+
+---
+
+# Lecture Notes
+
+This lecture covers two influential theories of innovation for sustainability.
+
+
+:::{.callout-note appearance="simple"}
+### Lecture Summary
+
+This lecture introduces innovation as a driver of change in socio-technical systems.
+The top-down approach of mission oriented innovation policy and the bottom-up processes of the multi-level perspective and strategic niche management are introduced.
+The current perspective is contrasted with previous ways of thinking about innovation.
+Finally, we begin a discussion of how sustainability enters this topic.
+
+:::
+
+:::{.callout-tip}
+## Learning Objectives
+
+1. Know Mission Innovation Policy and MLP; describe characteristics, differences, and similarities between approaches
+2. Understand three frames of innovation policy research
+3. Critically evaluate the manner in which innovation is talked about in sustainability transitions.
+
+:::
+
+## Theory and Current Research
+(20 min)
+
+
+In recent years the focus of innovation policy has shifted.
+@schot2018ThreeFramesInnovation highlight three frames of innovation.
+
+The first step, is innovation as a public good which standard neoclassical theory suggests will be under supplied.
+
+The second frame focuses on innovation from a systemic perspective.
+Failure to provide innovation at a desired level is countered with systemic intervention.
+For example, by providing networking events, or creating collaboration programs.
+
+The third and most recent frame is that of innovation as means to achieve social transformation.
+
+::: {.callout-note}
+## Transition or Transformation
+
+Note that in the literature transition and transformation are used differently by different authors.
+
+In the transformation literature, transitions are a fluent change towards slightly improved but fundamentally consistent systems.
+Transformations, on the other hand are fundamentally different, radical and non-linear changes to a system @roggema2012TransitionTransformation.
+
+In the literature we are focusing on, transformations are one possible pathway for transitions @geels2007TypologySociotechnicalTransition.
+Transformations happen when there is moderate landscape pressure on the regime.
+The socio-technical regime responds by moving development paths and innovation into the direction of the pressure.
+
+:::
+
+This begs the question, why we need transformative change.
+In short, there is a large need
+
+@haddad2022TransformativeInnovationPolicy
+@schot2018ThreeFramesInnovation
+What are the central challenges with innovation policy for sustainability?
+
+Change transitions or transformations?
+Context of change matters
+
+## Top down change policy
+(20 min)
+
+@mazzucato2018MissionorientedInnovationPolicies 
+
+Direction given by state, question of selection
+
+Does this type of innovation policy try to pick winners?
+Not according to mazzucato
+
+Picking the willing
+
+
+< 5 min break >
+## Bottom up change policy
+(20 min)
+
+@weber2012LegitimizingResearchTechnology
+
+MLP and steering -- questions of direction
+
+< 5 min break >
+
+
+< 5 min break >
+## Session 4 -- Discussion and Reflection
+(20 min)
+
+Many of sustainability challenges are interconnected.
+Solving one, while ignoring another 
+
+Europe centric
+
+Optional:
+
+@kirchherr2022BullshitSustainabilityTransitions
+
+@preuss2021DiversityTransitionTransitions
+

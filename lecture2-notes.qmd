@@ -1,0 +1,94 @@
+---
+title: "Notes for Lecture on Sustainability for Innovation"
+date: last-modified
+date-format: long
+---
+
+:::{.callout-note}
+This lecture aims to explore what sustainability means for innovation.
+Taking a social science perspective, we will discuss issues of directionality, power, and agency in defining sustainability transitions.
+
+The required reading for this class is @garud2012MetatheoreticalPerspectivesSustainability.
+When reading think about how the different perspectives presented relate to innovation systems and innovation policy.
+What do you think about the compatibility of different theories?
+
+Further recommended readings are @geels2010OntologiesSociotechnicalTransitions,@holmgren2022WhoseTransformationThis,
+@parks2022DirectionalityTransformativeInnovation,
+@grillitsch2019InnovationPolicySystemwide.
+Please keep in mind that you should not aim to read all the papers, rather they were chosen to represent current thinking of sustainability in (European) sustainability transition research.
+When reading any of them, think about how they relate to the different ideas of sustainability in @garud2012MetatheoreticalPerspectivesSustainability.
+Is one idea over-represented?
+If so, why do you think this is the case?
+Do you see any problems with it?
+:::
+
+## Directionality
+
+Solve the big social challenges with innovation TM.
+Directionality as "promoting speicifc inovations that contrbute to a rparticular direction of transfrommative change" @parks2022DirectionalityTransformativeInnovation
+
+Is the direction clear?
+
+## Wicked Problems
+
+Do we know what to solve?
+
+### Sustainability -- Concept and Aspects
+
+If there are too few other lectures where the natural science basis of sustainability challenges are introduced, this might be an opportunity to catch up a bit.
+
+
+Therefore, transformative change must be in the direction of sustainability.
+While we will cover what sustainability means for innovation more in my next lecture, I do want to quickly introduce three different ways of thinking about sustainability here.
+
+<!-- TODO: find citation of pillars, nested and mickey mouse model -->
+<!-- TODO: draw simple picture of each -->
+
+::::{columns}
+
+:::{column width=33%}
+
+![Mickey Mouse](){#fig-}
+
+:::
+add
+:::{column width=33%}
+
+![Nested](){#fig-}
+
+:::
+
+:::{column width=33%}
+
+![Pillars](){#fig-}
+
+:::
+
+::::
+
+Literature 
+@steffen2015PlanetaryBoundariesGuiding
+@steffen2011AnthropoceneGlobalChange
+
+
+Do we know who should solve?
+
+Do we know _how_ to solve?
+
+@otto2020SocialTippingDynamics
+@unruh2000UnderstandingCarbonLockin
+
+::: {.callout-caution icon="false"}
+
+## {{< fa regular circle-question >}} Reading Question
+
+What do you think about the three frames from a sustainability perspective?
+Base your answer on @schot2018ThreeFramesInnovation.
+
+:::
+
+
+
+
+How do we know if we have found a solution?
+
