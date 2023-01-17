@@ -1,48 +1,67 @@
-
+---
+format: 
+  html:
+    echo: false
+    warning: false
+engine: knitr
+---
 # Instructions for Seminar Facilitators
 
 ## Overview
 
 |Duration | Players | Materials
 :---|:---|:---
-60 min | 10 - apprx. 15 | Role Cards, 52 card deck, score board, watch.
-
+60 min | 10 - apprx. 15 | Role Cards, 52 card deck, score board, watch
 
 ## Materials Needed
 
-<!-- ```{r}
+```{r}
+#| echo: false
+#| warning: false
+
+library(downloadthis)
 
 roles_docx <- download_link(
-  link = "https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf",
-  button_label = "Download pdf file",
-  button_type = "danger",
+  link = "https://github.com/pjkreutzer/teaching-innovation-sustainability/raw/main/seminar-materials/role-cards.docx",
+  button_label = "Download docx file",
+  button_type = "primary",
   has_icon = TRUE,
   icon = "fa fa-save",
-  self_contained = FALSE
-)
-
-roles_pdf <- download_link(
-  link = "https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf",
-  button_label = "Download pdf file",
-  button_type = "danger",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = FALSE
+  self_contained = TRUE,
+  id="roles-btn"
 )
 
 xlsx_tool <- download_link(
-  link = "https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf",
-  button_label = "Download pdf file",
-  button_type = "danger",
+  link = "https://github.com/pjkreutzer/teaching-innovation-sustainability/raw/main/seminar-materials/innovation-game.xlsx",
+  button_label = "Download xlsx file",
+  button_type = "primary",
   has_icon = TRUE,
   icon = "fa fa-save",
   self_contained = FALSE
 )
 
-``` -->
+```
 
-1. Role Cards for the number of players,
+### Role Cards
+
+```{r}
+#| echo: false
+roles_docx
+```
+
+For each role there is a role card.
+Note that each role needs to be given out at least once.
+
+
+
+
 2. Helpful Excel Tool for Keeping Track,
+
+```{r}
+#| echo: false
+xlsx_tool
+```
+
 3. A Watch,
 4. One standard 52 card deck,
 5. A surface to place the deck of cards / play innovations.
