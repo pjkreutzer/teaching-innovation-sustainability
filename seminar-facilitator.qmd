@@ -1,12 +1,14 @@
 
 # Instructions for Seminar Facilitators
 
+## Overview
+
+|Duration | Players | Materials
+:---|:---|:---
+60 min | 10 - apprx. 15 | Role Cards, 52 card deck, score board, watch.
 
 
-## Game Instructions
-
-
-## Materials
+## Materials Needed
 
 <!-- ```{r}
 
@@ -39,9 +41,58 @@ xlsx_tool <- download_link(
 
 ``` -->
 
-1. Role Cards
-2. Helpful Excel Tool for Keeping Track 
-3. Watch
+1. Role Cards for the number of players,
+2. Helpful Excel Tool for Keeping Track,
+3. A Watch,
+4. One standard 52 card deck,
+5. A surface to place the deck of cards / play innovations.
+
+
+
+## Game Instructions and Player Rules
+
+The game instructions can be found in [Seminar 1](seminar-1.qmd).
+While it is not important for students to have a clear understanding of all roles, as facilitator you should be aware of all role's functions and special features.
+
+One of the most interesting aspects of the game arises when students begin to interact with the rules themselves.
+The instructions do not cover all possible cases and eventualities.
+
+For example, the instructions do not specify what _else_ government can do.
+Usually students quickly think of certain new rules.
+They may wonder, for example, if government can pass a law which requires a certain number of environmental innovations to be played, such as one every round, or one for every two normal innovations etc.
+
+The instructions also do not specify wether or not students can change seats (assuming you play sitting around a table).
+Or wether the industry roles can fire its researchers, or if they can quit etc.
+
+Depending on your specific teaching needs, this may even be an asset.
+However, you are of course free to adapt, add or change rules as you see fit.
+For example, if you are interested in teaching about the importance of clustering, maybe space out the researcher roles for the first five rounds and only allow them to move afterwards.
+
+While it makes sense to think about some possible extra rules, your students are likely going to surprise you with an idea for a new rule or option during the game anyways.
+
+One of the more obvious loopholes that students will ask about is to consume something else than the specified 5, or 3 coins.
+While I was expecting the environmentally conscious roles to eventually stop consuming all together, I was very amused when an economy-minded citizen asked if they could consume _more_.
+
+Use your own judgement in these cases.
+Part of the fun is to create institutional innovation, such as new rules, but as facilitator make sure that a single change does not destroy the entire mechanism of the game.
+For example, consuming for 10 instead of 5 may still be a fun new player behavior and is likely to cancel out with other consuming less; consuming for 100 on the other hand may be too much.
+
+In the rules it is said that red cards are process and black cards product innovations.
+This is has no real purpose other than adding some world building to the game.
+
+
+## Time Management
+
+Ask your students to read through the game instructions before coming to the seminar.
+With some time to cover questions, and a brief repetition of the rules, you have about 50 minutes for the 10 rounds.
+This means that on average one round should take 5 minutes.
+As facilitator you should keep an eye on the overall time and try to develop a feeling for the flow of the game.
+The first rounds will take a bit longer for everyone to settle in.
+So will round 5 with the election.
+Use this to your advantage to add some mild stress in other rounds, so that the innovators cannot think too long about which cards to play.
+
+The flow of the game is greatly helped if each group (citizens, funding bodies, and researchers) sum up their points for you.
+
 
 ### Post Game Questions
 
@@ -79,7 +130,7 @@ xlsx_tool <- download_link(
 
 ### Questions on System Functions
 
-1. If we think back to the iceberg heuristic, can we identify new or different ways in which functions were fulfilled?
+1. If we think back to the [iceberg heuristic](lecture1-notes.qmd), can we identify new or different ways in which functions were fulfilled?
 2. What knowledge was developed in the game? By whom and when?
 3. How is knowledge diffused both in the game and in reality?
 4. What would have happened if one (or both) of the indicators were more delayed?
