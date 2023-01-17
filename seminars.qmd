@@ -1,0 +1,31 @@
+# Seminars
+
+The seminars aim to introduce innovation systems and sustainability transitions in a more experience based manner.
+
+The [first seminar](seminar-1.qmd) introduces innovation systems through a simulation game of an innovation system.
+If you want to leave feedback on the game, you can do so here:
+
+[Feedback Form: https://forms.office.com/r/8PstTLd9b1](https://forms.office.com/r/8PstTLd9b1)
+
+{{< qrcode https://forms.office.com/r/8PstTLd9b1 >}}
+
+The second seminar is a group discussion of individual reflections on the game and relevant literature.
+
+While no special preparation is needed for the first seminar, the second seminar requires that you have read the following.
+
+## Required Reading
+
+@hekkert2007FunctionsInnovationSystems propose seven functions of innovation systems.
+They will be an important reflection topic for your assignment.
+
+## Recommended Reading
+
+@meadows2009ThinkingSystemsPrimer [chapter 4] and 
+@wieczorek2012SystemicInstrumentsSystemic are recommended as they each deepen an aspect of systems thinking related to the first seminar that might be helpful in your reflections.
+
+Since none of these papers talk directly about sustainability, you will need to make the connection.
+It can be helpful to think about how different functions relate to different sustainability questions.
+Some questions to keep in mind could be:
+What assumptions about sustainability (weak versus strong) are made by the innovation systems literature?
+Are there tradeoffs between the functions of an innovation system and sustainability transitions?
+How do different functions change in their relation to sustainability over time, e.g., does one and the same function promote sustainability at one point and then limit it at another?

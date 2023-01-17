@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "Innovation for Sustainable Development <br> HT 2022"
+  author: <a href="https://pjkreutzer.github.io" target="_blank" rel="noopener">Jonas Kreutzer</a>
+  date: last-modified
+  date-format: long
+  chapters:
+    - index.qmd
+    - part: lectures.qmd
+      chapters:
+        - lecture1-notes.qmd
+        - lecture2-notes.qmd
+    - part: seminars.qmd
+      chapters:
+         - seminar-facilitator.qmd
+         - seminar-1.qmd
+         - seminar-2.qmd
+    - references.qmd
+  page-footer: "Copyright 2022, Jonas Kreutzer"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+
+

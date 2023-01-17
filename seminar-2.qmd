@@ -1,0 +1,41 @@
+# Seminar 2: Reflections on Innovation Systems for Sustainability Transitions {.unnumbered}
+
+In this seminar you will present and discuss your individual reflections on the previous seminars game.
+The paper should cover a brief explanation of your role in the game, and then use the reading assigned for this seminar to reflect on innovation systems for sustainability transitions.
+Aim for your reflection to be around 750 words.
+
+Some questions to help your reflections are:
+
+1. Which systems functions, discussed in @hekkert2007FunctionsInnovationSystems were fulfilled (how?)? 
+If there were functions that you did not identify, is that due to the game's design, or some other reason?
+2. What surprised you in the way the game unfolded?
+Were there critical moments in which the game could have developed differently?
+3. How did you find your way into your role?
+Was it easy for you to adapt to the role, or did you have difficulties?
+Did you behave the way you did in the game because of the role you assumed?
+If yes, what made you behave inline with the role?
+If not, why did you not behave in line with the role?
+
+It is not important that you answer all of them, or any for that matter.
+They are meant as guidance rather than expectations.
+If you have another aspect that you would like to reflect upon, please do.
+The important part is that you present some thought about innovation systems literature and your personal experience in the first seminar.
+
+::: {.callout-important}
+
+If you could not attend the first seminar, please still try to include personal experience in combination to the assigned reading.
+Instead of drawing on the game, choose and briefly describe an experience where you were part of an innovation system.
+You can be liberal with the type of innovation.
+For example, a student union which aimed to change something at the university; working or interning at a company and wanting to introduce a new tool / process.
+
+The goal is that you reflect on how the system influenced this process.
+
+:::
+
+During the seminar you will first discuss your reflections in small groups of up to five people.
+Please make sure to read the reflections of others before hand.
+At the end we will discuss your reflections together.
+
+
+Apart from the required reading you may find @wieczorek2012SystemicInstrumentsSystemic helpful for a deeper understanding of influencing innovation systems.
+While the entire book _Thinking in Systems: A Primer_ by @meadows2009ThinkingSystemsPrimer is a great read, for this reflection you may find chapter 4 _Why Systems Surprise Us_ particularly helpful.

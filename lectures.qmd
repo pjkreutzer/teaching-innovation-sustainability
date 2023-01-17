@@ -1,0 +1,8 @@
+# Lectures
+
+I teach two lectures in this course.
+For each you there the slides which support the lecture as well as more in depth notes for reviewing or in case you missed a lecture.
+
+[Lecture 1](lecture1-notes.qmd) discusses current frames of innovation policy and how they relate to sustainability transitions.
+
+[Lecture 2](lecture2-notes.qmd) takes a deeper look at current questions about directionality, power and (potentially) transition justice in sustainability transitions from an innovation system perspective.

@@ -1,0 +1,91 @@
+
+# Instructions for Seminar Facilitators
+
+
+
+## Game Instructions
+
+
+## Materials
+
+<!-- ```{r}
+
+roles_docx <- download_link(
+  link = "https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf",
+  button_label = "Download pdf file",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+
+roles_pdf <- download_link(
+  link = "https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf",
+  button_label = "Download pdf file",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+
+xlsx_tool <- download_link(
+  link = "https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf",
+  button_label = "Download pdf file",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+
+``` -->
+
+1. Role Cards
+2. Helpful Excel Tool for Keeping Track 
+3. Watch
+
+### Post Game Questions
+
+1. What happened?
+2. How did you feel in your role?
+3. Do you feel you "won"?
+4. What moment was decisive for the game outcome?
+5. What were you thinking about the other players in the game?
+6. Did something that could have happened not happen (e.g., the government passing laws? Citizens stopping to consume at all?) Why or why not?
+
+### Questions for Seminar 2
+
+::: {.panel-tabset}
+
+## Small Group 
+
+### Questions on the Reflection
+
+1. How was it to reflect on the game? What came easy, what did not?
+2. Were you surprised by something in the reflections you read?
+3. If you had the same (or similar) roles, do you recognize the others experiences? Where are your own reflections different? Why do you think this is the case?
+4. If you had different roles, do the reflections fit into what you thought about the other persons role both during and after the game?
+
+### Questions on System Functions
+
+1. Do you agree with the analysis of systems functions in your small group?
+2. Are there functions that you struggle with (in understanding or in applying)? 
+
+
+## Large Group
+ 
+1. Did others in your small group feel different about the easiness of reflection than you did?
+2. How similar were your reflections in the small groups?
+3. Has your discussion prompted some new insight, either regarding your own reflection or the system function?
+
+### Questions on System Functions
+
+1. If we think back to the iceberg heuristic, can we identify new or different ways in which functions were fulfilled?
+2. What knowledge was developed in the game? By whom and when?
+3. How is knowledge diffused both in the game and in reality?
+4. What would have happened if one (or both) of the indicators were more delayed?
+5. What would have been needed to have a different game?
+6. How aware were you of the game mechanisms during the game versus after? What changed?
+
+:::
+
+# Learning Objectives -- Sustainability Skills

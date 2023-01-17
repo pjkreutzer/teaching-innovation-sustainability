@@ -1,0 +1,4 @@
+/.quarto/
+/_book/
+*.docx
+/.luarc.json
