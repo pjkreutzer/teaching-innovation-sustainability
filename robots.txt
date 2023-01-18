@@ -1,1 +1,1 @@
-Sitemap: https://www.pjkreutzer.github.io/teaching-innovation-sustainability/sitemap.xml
+Sitemap: https://pjkreutzer.github.io/teaching-innovation-sustainability/sitemap.xml
