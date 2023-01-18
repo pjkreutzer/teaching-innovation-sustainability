@@ -21,7 +21,7 @@ book:
   page-footer: "Copyright 2022, Jonas Kreutzer"
   twitter-card: 
     card-style: summary
-    image: 
+    image: assets/forest.jpg
     creator: "@pj_kreutzer"
 
 bibliography: references.bib

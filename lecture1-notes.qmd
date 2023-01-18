@@ -161,7 +161,8 @@ They indicate a safe operating space for humanity and reflect early warnings tha
 @wang-erlandsson2022PlanetaryBoundaryGreen have been the latest to measure how close we are to transgressing planetary boundaries (@fig-boundaries).
 Including their assessment of freshwater, we know now that we have overshoot six of the nine boundaries.
 
-![](assets/PB_2022_green%20water.png){#fig-boundaries fig-alt="The nine planetary boundaries shown as a radial graph. Five are overshooting the safe operating space."}
+![Planetary Boundaries Model (Azote for Stockholm Resilience Centre, based on analysis in @persson2022OutsideSafeOperating and @steffen2015PlanetaryBoundariesGuiding](assets/PB_2022_green%20water.png){#fig-boundaries fig-alt="The nine planetary boundaries shown as a radial graph. Five are overshooting the safe operating space." }
+
 
 ::: {#fig-great-acceleration layout-ncol=2}
 

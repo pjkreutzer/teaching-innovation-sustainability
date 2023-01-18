@@ -5,7 +5,8 @@ format:
     warning: false
 engine: knitr
 ---
-# Instructions for Seminar Facilitators
+
+# Instructions for Seminar Facilitators {.unnumbered}
 
 ## Overview
 
@@ -14,6 +15,10 @@ engine: knitr
 60 min | 10 - apprx. 15 | Role Cards, 52 card deck, score board, watch
 
 ## Materials Needed
+
+The only things you really need are a standard card deck with 52 cards and the role cards.
+A watch and a score board will make the game easier to facilitate.
+
 
 ```{r}
 #| echo: false
@@ -46,27 +51,35 @@ xlsx_tool <- download_link(
 
 ```{r}
 #| echo: false
+#| column: margin
+
 roles_docx
 ```
 
 For each role there is a role card.
-Note that each role needs to be given out at least once.
+The government and industry should be given out _only_ once.
+The other roles can be given out more often.
+I recommend to play with at least two university and two company researchers.
+When playing with only ten people, consider giving one citizen the NGO role as a bonus.
+When playing with 15 players, you may want to add at least one more innovator.
+The election after round 5 offers the players a chance to obtain a new role.
+If the government is replaced, the old government becomes a citizen, either trading with the citizen that has been elected as new government or taking the card of whoever replaces the other role.
+For example, if the industry player is elected as the new government, a citizen replaces them as industry (usually this can be quickly decided through volunteers or through another small election).
 
-
-
-
-2. Helpful Excel Tool for Keeping Track,
+### Score Board
 
 ```{r}
 #| echo: false
+#| column: margin
+#| 
+
 xlsx_tool
 ```
 
-3. A Watch,
-4. One standard 52 card deck,
-5. A surface to place the deck of cards / play innovations.
 
-
+To help with keeping score, you can download an excel tool.
+By splitting the workbook view, you can show one sheet to the students which automatically updates when you insert the points of each round.
+Comments in the file will show you how it works.
 
 ## Game Instructions and Player Rules
 
@@ -111,6 +124,18 @@ So will round 5 with the election.
 Use this to your advantage to add some mild stress in other rounds, so that the innovators cannot think too long about which cards to play.
 
 The flow of the game is greatly helped if each group (citizens, funding bodies, and researchers) sum up their points for you.
+
+## Learning Objectives -- Sustainability Skills
+
+Hopefully this is not only all fun and games but also teaches some aspects of innovation and sustainability.
+The assigned reading here is chosen to highlight that innovation is a phenomenon happening embedded in a system.
+But other readings and points could perhaps also be made with the game.
+For example, if you are more interested in the geography of innovation, perhaps a paper about spillover effects together with new rules regarding the seating arrangements works better for you.
+
+Here are some questions that can be used directly after the game and in a follow up seminar, after students have read the assigned paper.
+It is of course also possible to require the reading before the game is played and have the discussions directly following the game.
+
+Apart from the topical knowledge, these questions also focus on other sustainability competencies [@brundiers2021KeyCompetenciesSustainability].
 
 
 ### Post Game Questions
@@ -158,4 +183,3 @@ The flow of the game is greatly helped if each group (citizens, funding bodies, 
 
 :::
 
-# Learning Objectives -- Sustainability Skills
