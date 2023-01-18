@@ -32,7 +32,7 @@ roles_docx <- download_link(
 )
 
 xlsx_tool <- download_link(
-  link = "https://github.com/pjkreutzer/teaching-innovation-sustainability/raw/main/seminar-materials/innovation-game.xlsx",
+  link = "https://github.com/pjkreutzer/teaching-innovation-sustainability/raw/main/seminar-materials/innovation-game-tool.xlsx",
   button_label = "Download xlsx file",
   button_type = "primary",
   has_icon = TRUE,

@@ -19,6 +19,10 @@ book:
          - seminar-2.qmd
     - references.qmd
   page-footer: "Copyright 2022, Jonas Kreutzer"
+  twitter-card: 
+    card-style: summary
+    image: 
+    creator: "@pj_kreutzer"
 
 bibliography: references.bib
 
