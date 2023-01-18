@@ -14,10 +14,11 @@ book:
         - lecture2-notes.qmd
     - part: seminars.qmd
       chapters:
-         - seminar-facilitator.qmd
          - seminar-1.qmd
-         - seminar-2.qmd
+         - seminar-2.qmd       
     - references.qmd
+  appendices: 
+      - seminar-facilitator.qmd
   page-footer: "Copyright 2022, Jonas Kreutzer"
   twitter-card: 
     card-style: summary
