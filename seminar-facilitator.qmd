@@ -4,6 +4,11 @@ format:
     echo: false
     warning: false
 engine: knitr
+
+twitter-card: 
+  card-style: summary
+  image: "/assets/cards.jpg"
+  creator: "@pj_kreutzer"
 ---
 
 # Instructions for Seminar Facilitators {.unnumbered}

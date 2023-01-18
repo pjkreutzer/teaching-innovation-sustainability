@@ -19,11 +19,15 @@ book:
     - references.qmd
   appendices: 
       - seminar-facilitator.qmd
+
   page-footer: "Copyright 2022, Jonas Kreutzer"
+
   twitter-card: 
     card-style: summary
-    image: assets/forest.jpg
+    image: "/assets/cards.png"
     creator: "@pj_kreutzer"
+
+  site-url: "https://pjkreutzer.github.io/teaching-innovation-sustainability"  
 
 bibliography: references.bib
 
