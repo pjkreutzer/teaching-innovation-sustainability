@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.3.310">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-01-18">
+<meta name="dcterms.date" content="2023-03-25">
 
 <title>Innovation for Sustainable Development  HT 2022 - 1&nbsp; Innovation for Sustainability Transitions</title>
 <style>
@@ -18,14 +18,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -39,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -85,7 +85,7 @@ div.csl-indent {
 
 
 <meta name="twitter:title" content="Innovation for Sustainable Development  HT 2022 - 1&nbsp; Innovation for Sustainability Transitions">
-<meta name="twitter:description" content="These notes accompany the lecture “Innovation for Sustainability Transitions” held at Lund University on November 8th, 2022. You can find the slides at the bottom of this text.">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://pjkreutzer.github.io/teaching-innovation-sustainability/assets/cards.png">
 <meta name="twitter:creator" content="@pj_kreutzer">
 <meta name="twitter:card" content="summary">
@@ -97,11 +97,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Innovation for Sustainability Transitions</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lectures.html">Lectures</a></li><li class="breadcrumb-item"><a href="./lecture1-notes.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Innovation for Sustainability Transitions</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -109,80 +114,90 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Innovation for Sustainable Development <br> HT 2022</a> 
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./lectures.html" class="sidebar-item-text sidebar-link">Lectures</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="./lectures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lectures</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lecture1-notes.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Innovation for Sustainability Transitions</span></a>
+  <a href="./lecture1-notes.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Innovation for Sustainability Transitions</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lecture2-notes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Sustainability: Concepts, Technology, Innovation</span></a>
+  <a href="./lecture2-notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Sustainability: Concepts, Technology, Innovation</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./seminars.html" class="sidebar-item-text sidebar-link">Seminars</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a href="./seminars.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Seminars</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./seminar-1.html" class="sidebar-item-text sidebar-link">Seminar 1: Inside Innovation Systems for Sustainability Transitions</a>
+  <a href="./seminar-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Seminar 1: Inside Innovation Systems for Sustainability Transitions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./seminar-2.html" class="sidebar-item-text sidebar-link">Seminar 2: Reflections on Innovation Systems for Sustainability Transitions</a>
+  <a href="./seminar-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Seminar 2: Reflections on Innovation Systems for Sustainability Transitions</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Appendices</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./seminar-facilitator.html" class="sidebar-item-text sidebar-link">Instructions for Seminar Facilitators</a>
+  <a href="./seminar-facilitator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instructions for Seminar Facilitators</span></a>
   </div>
 </li>
       </ul>
@@ -190,26 +205,27 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link active" data-scroll-target="#lecture-notes"><span class="toc-section-number">2</span>  Lecture Notes</a>
+  <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link active" data-scroll-target="#lecture-notes"><span class="header-section-number">2</span> Lecture Notes</a>
   <ul class="collapse">
-  <li><a href="#three-frames-for-innovation" id="toc-three-frames-for-innovation" class="nav-link" data-scroll-target="#three-frames-for-innovation"><span class="toc-section-number">2.1</span>  Three Frames for Innovation</a></li>
-  <li><a href="#top-down-change-policy-mission-orientation" id="toc-top-down-change-policy-mission-orientation" class="nav-link" data-scroll-target="#top-down-change-policy-mission-orientation"><span class="toc-section-number">2.2</span>  Top Down Change Policy – Mission Orientation</a>
+  <li><a href="#three-frames-for-innovation" id="toc-three-frames-for-innovation" class="nav-link" data-scroll-target="#three-frames-for-innovation"><span class="header-section-number">2.1</span> Three Frames for Innovation</a></li>
+  <li><a href="#top-down-change-policy-mission-orientation" id="toc-top-down-change-policy-mission-orientation" class="nav-link" data-scroll-target="#top-down-change-policy-mission-orientation"><span class="header-section-number">2.2</span> Top Down Change Policy – Mission Orientation</a>
   <ul class="collapse">
-  <li><a href="#implementing-mission-policies" id="toc-implementing-mission-policies" class="nav-link" data-scroll-target="#implementing-mission-policies"><span class="toc-section-number">2.2.1</span>  Implementing Mission Policies</a></li>
+  <li><a href="#implementing-mission-policies" id="toc-implementing-mission-policies" class="nav-link" data-scroll-target="#implementing-mission-policies"><span class="header-section-number">2.2.1</span> Implementing Mission Policies</a></li>
   </ul></li>
-  <li><a href="#bottom-up-change-policy-multi-level-perspective" id="toc-bottom-up-change-policy-multi-level-perspective" class="nav-link" data-scroll-target="#bottom-up-change-policy-multi-level-perspective"><span class="toc-section-number">2.3</span>  Bottom Up Change Policy – Multi-Level Perspective</a>
+  <li><a href="#bottom-up-change-policy-multi-level-perspective" id="toc-bottom-up-change-policy-multi-level-perspective" class="nav-link" data-scroll-target="#bottom-up-change-policy-multi-level-perspective"><span class="header-section-number">2.3</span> Bottom Up Change Policy – Multi-Level Perspective</a>
   <ul class="collapse">
-  <li><a href="#transitions-of-socio-technical-systems" id="toc-transitions-of-socio-technical-systems" class="nav-link" data-scroll-target="#transitions-of-socio-technical-systems"><span class="toc-section-number">2.3.1</span>  Transitions of Socio-Technical Systems</a></li>
-  <li><a href="#current-questions" id="toc-current-questions" class="nav-link" data-scroll-target="#current-questions"><span class="toc-section-number">2.3.2</span>  Current Questions</a></li>
+  <li><a href="#transitions-of-socio-technical-systems" id="toc-transitions-of-socio-technical-systems" class="nav-link" data-scroll-target="#transitions-of-socio-technical-systems"><span class="header-section-number">2.3.1</span> Transitions of Socio-Technical Systems</a></li>
+  <li><a href="#current-questions" id="toc-current-questions" class="nav-link" data-scroll-target="#current-questions"><span class="header-section-number">2.3.2</span> Current Questions</a></li>
   </ul></li>
-  <li><a href="#discussion-and-reflection" id="toc-discussion-and-reflection" class="nav-link" data-scroll-target="#discussion-and-reflection"><span class="toc-section-number">2.4</span>  Discussion and Reflection</a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides"><span class="toc-section-number">2.5</span>  Slides</a></li>
+  <li><a href="#discussion-and-reflection" id="toc-discussion-and-reflection" class="nav-link" data-scroll-target="#discussion-and-reflection"><span class="header-section-number">2.4</span> Discussion and Reflection</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides"><span class="header-section-number">2.5</span> Slides</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -219,7 +235,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Innovation for Sustainability Transitions</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Innovation for Sustainability Transitions</span></h1>
 </div>
 
 
@@ -230,7 +246,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 18, 2023</p>
+      <p class="date">March 25, 2023</p>
     </div>
   </div>
   
@@ -243,12 +259,12 @@ div.csl-indent {
 <section id="lecture-notes" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Lecture Notes</h1>
 <p>These notes accompany the lecture “Innovation for Sustainability Transitions” held at Lund University on November 8th, 2022. You can find the slides at the bottom of this text.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Lecture Summary
 </div>
 </div>
@@ -256,12 +272,12 @@ Lecture Summary
 <p>This lecture introduces innovation as a driver of change in socio-technical systems. The top-down approach of mission oriented innovation policy and the bottom-up processes of the multi-level perspective and strategic niche management are introduced. The current perspective is contrasted with previous ways of thinking about innovation. Finally, we begin a discussion of how sustainability enters this topic.</p>
 </div>
 </div>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Learning Objectives
 </div>
 </div>
@@ -285,12 +301,12 @@ Learning Objectives
 <p>The first frame discussed in <span class="citation" data-cites="schot2018ThreeFramesInnovation">Schot and Steinmueller (<a href="references.html#ref-schot2018ThreeFramesInnovation" role="doc-biblioref">2018</a>)</span> is innovation for growth. This frame was particularly influential in the post-war period and can be identified in Kuznets’ <span class="citation" data-cites="kuznets1966ModernEconomicGrowth">(<a href="references.html#ref-kuznets1966ModernEconomicGrowth" role="doc-biblioref">1966</a>)</span>Modern Economic Growth. Note the reasons for why countries were willing to invest into science: to fight off unwanted economic events (inflation, unemployment, instability); spillovers into private sector; peace through defense spending. Often the spending was clearly defined with a mission in mind. Examples are winning the space race in the 1960s, or lessening the exposure to oil exporting nations in the 1970s. Within this frame the question of how to design markets optimally was at the heart of innovation policy. As you recall from economics of innovation, it is argued that market failures exist in the provision of discovery and invention. Overcoming these failures in the early stages of the innovation process (i.e., at the basic research and invention stage) trough public spending was the solution. In this framing technological progress is mainly viewed as positive. While negative possibilities are acknowledged, the positive elements outweigh. Hence, selecting which innovation should be pursued plays only a minor role.</p>
 <p>The second frame focuses on innovation from a systemic perspective. This frame emerged from the realization that not all lower income countries caught up and benefitted from the – supposed positive externalities of – innovation developed in high income countries. Institutions at various scales play the central role in this frame. Innovation as a linear process is replaced with a convoluted, feedback driven systemic event. The main goal of innovation remains economic. Due to international competition the imperative to innovate in order to stay competitive increases too. Failure to provide innovation at a desired level is countered with systemic intervention. For example, by providing networking events, or creating collaboration programs. Such programs, however, have a mixed track record. Innovation is too complex to simply “copy-paste” the silicon valley elsewhere.</p>
 <p>The third and most recent frame is that of innovation as means to achieve social transformation. Its core assumption is still that innovation is a “… force for creating a better world” <span class="citation" data-cites="schot2018ThreeFramesInnovation">(<a href="references.html#ref-schot2018ThreeFramesInnovation" role="doc-biblioref">Schot and Steinmueller 2018, 1561</a>)</span>. This third frame calls the narrative of innovation as always positive (even when it destroys something cf. <span class="citation" data-cites="schumpeter2012TheoryEconomicDevelopment">Schumpeter and Elliott (<a href="references.html#ref-schumpeter2012TheoryEconomicDevelopment" role="doc-biblioref">2012</a>)</span>) into question.</p>
-<div class="callout-caution callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 <i class="fa-regular fa-circle-question" aria-label="circle-question"></i> Reading Question
 </div>
 </div>
@@ -310,12 +326,12 @@ tant features of the first two frames into question?--></p>
 </figure>
 </div>
 <p><a href="#fig-iceberg">Figure&nbsp;<span>2.2</span></a> depicts an iceberg of innovation types for sustainability. Above the water level, the most visible part of the iceberg, are organizational and technological innovations. Organizational innovations include changes in management, or strategy. Examples of technological innovation are both new processes and products.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Example Technology Innovations
 </div>
 </div>
@@ -323,12 +339,12 @@ Example Technology Innovations
 <p>The fairphone, or IKEA’s better shelter are examples of product innovations. Process innovations include examples such as the app Too Good To Go.</p>
 </div>
 </div>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Example Organizational Innovations
 </div>
 </div>
@@ -340,12 +356,12 @@ Example Organizational Innovations
 <p>When discussing innovation for sustainability it is helpful to remember that innovation is more then only the introduction of new process or products.</p>
 <p>The iceberg heuristic provides a helpful tool to analyze the depth of a transition. Take, for example, the mobility sector. In many places there are ambitions to promote the use of electrical vehicles (EV). The vehicles themselves are a readily recognized technological innovation. Some cities have begun to set up charging stations along parking spaces to promote switching to EV. This likely required changes to local laws or the creation of other new formal institutions. Similarly, longer “refueling” times of EV require users to adapt their behavior and for some even changes in their lifestyles. Innovation therefore goes beyond the readily visible top of the iceberg. But what about the deepest level? Some critiques argue that EV do not lead to a deep transition of the mobility sector, as the norm remains focused on providing individual transport solutions.</p>
 <p>Only such transformation of the deepest levels is considered by <span class="citation" data-cites="schot2018ThreeFramesInnovation">Schot and Steinmueller (<a href="references.html#ref-schot2018ThreeFramesInnovation" role="doc-biblioref">2018</a>)</span> as a socio-technical system transformation.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Transition or Transformation
 </div>
 </div>
@@ -378,12 +394,12 @@ Transition or Transformation
 </div>
 <p>The planetary boundaries focus on environmental sustainability. We will dive deeper into these topics in my second lecture. In the mean time the Lund University MOOC <a href="https://www.coursera.org/learn/working-for-a-sustainable-future">“Working for a sustainable future: concepts and approaches”</a> is a great resource to learn about key sustainability concepts. It also features videos on innovation for sustainability by <a href="https://cristinachaminade.com/">Cristina Chaminade</a>. These two lectures draw heavily from her previous work with this course.</p>
 <p>But transformative innovation does not only target environmental issues. Population aging, education, or hunger are other areas in which innovation is needed to find a solution. A popular and important framework for addressing important issues are the <a href="https://sdgs.un.org">Sustainable Development Goals</a>. The SDG themselves are an important innovation.</p>
-<div class="callout-caution callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 <i class="fa-regular fa-circle-question" aria-label="circle-question"></i> Reading Question
 </div>
 </div>
@@ -398,12 +414,12 @@ Transition or Transformation
 <h2 data-number="2.2" class="anchored" data-anchor-id="top-down-change-policy-mission-orientation"><span class="header-section-number">2.2</span> Top Down Change Policy – Mission Orientation</h2>
 <p><span class="citation" data-cites="mazzucato2018MissionorientedInnovationPolicies">Mazzucato (<a href="references.html#ref-mazzucato2018MissionorientedInnovationPolicies" role="doc-biblioref">2018</a>)</span> summarizes one of the most influential current innovation policy paradigms. She argues that the grand-challenges of our time need to be taken on by national governments. The scale of many issues (e.g. <a href="#fig-great-acceleration">Figure&nbsp;<span>2.4</span></a>), she argues, requires that resources are mobilized at equally large scales.</p>
 <p>Many of these grand challenges are novel in so far, as there is a high urgency for solving them. The previous reactionary view of the first and second innovation frame, <span class="citation" data-cites="weber2012LegitimizingResearchTechnology">Weber and Rohracher (<a href="references.html#ref-weber2012LegitimizingResearchTechnology" role="doc-biblioref">2012</a>)</span> argue, are not enough to provide answers for modern problems.</p>
-<div class="callout-caution callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 <i class="fa-regular fa-circle-question" aria-label="circle-question"></i> Reading Question
 </div>
 </div>
@@ -413,12 +429,12 @@ Transition or Transformation
 </div>
 </div>
 <p>Indeed, for <span class="citation" data-cites="mazzucato2018MissionorientedInnovationPolicies">Mazzucato (<a href="references.html#ref-mazzucato2018MissionorientedInnovationPolicies" role="doc-biblioref">2018</a>)</span> the government should not be passive at all. Instead of waiting for markets to form, fail and only then regulate, or for limited intervention in systems, <em>mission oriented</em> policy calls for a government which proactively engages in the innovation process and indeed economy at large.</p>
-<div class="callout-caution callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 <i class="fa-regular fa-circle-question" aria-label="circle-question"></i> Reading Question
 </div>
 </div>
@@ -430,12 +446,12 @@ Transition or Transformation
 <h3 data-number="2.2.1" class="anchored" data-anchor-id="implementing-mission-policies"><span class="header-section-number">2.2.1</span> Implementing Mission Policies</h3>
 <p>She proposes mission maps as a tool to visualize mission oriented policies. The process of a mission map attempts to turn the first and second frame thinking on its head. Instead of asking what should be done to improve <em>innovation</em>, the starting question in missions is what should be done to solve the <em>problem</em>. The emphasis is therefore not on picking winners in the sense of deciding from the start what innovation should be adopted, but picking those willing to accomplish the mission.</p>
 <p>Missions have become a part of EU legislation in the from of EU Horizon Programmes <span class="citation" data-cites="mazzucato2021MissionEconomyMoonshot">(<a href="references.html#ref-mazzucato2021MissionEconomyMoonshot" role="doc-biblioref">Mazzucato 2021</a>)</span>. They are also present at various scales in <a href="https://www.bmbf.de/bmbf/en/research/hightech-and-innovation/high-tech-strategy-2025/high-tech-strategy-2025.html">Germany</a>, the <a href="https://www.rijksoverheid.nl/documenten/publicaties/2019/04/26/missies">Netherlands</a>, <a href="https://www.vinnova.se/en/m/challenge-driven-innovation/">Sweden</a>, the <a href="https://www.gov.uk/government/topical-events/the-uks-industrial-strategy">UK</a>, but also cities such as <a href="https://www.amsterdam.nl/en/policy/sustainability/circular-economy/">Amsterdam</a>. This raises some important questions about the extent to which the missions are socially co-developed. How are shared visions created? Who decides what goals are worth to pursue? Are we pushing political problems into the technical sphere, by crafting innovation missions around them? For this last question, lets return to the example of electrical vehicles as a part of more sustainable transport sector. <span class="citation" data-cites="mazzucato2021MissionEconomyMoonshot">Mazzucato (<a href="references.html#ref-mazzucato2021MissionEconomyMoonshot" role="doc-biblioref">2021</a>)</span> highlights investments of the Obama administration into Tesla Motors as a successful example of state led risk capital. While Tesla is currently a company enjoying economic success, and the sector at large seems to grow, we do have to stop and consider: whose vision of a sustainable transport sector includes luxury electrical vehicles? Who is not included in this vision? Are there other potential visions for future mobility?</p>
-<div class="callout-caution callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 <i class="fa-regular fa-circle-question" aria-label="circle-question"></i> Reading Question
 </div>
 </div>
@@ -443,12 +459,12 @@ Transition or Transformation
 <p><span class="citation" data-cites="mazzucato2018MissionorientedInnovationPolicies">Mazzucato (<a href="references.html#ref-mazzucato2018MissionorientedInnovationPolicies" role="doc-biblioref">2018</a>)</span> argues the government should take a more proactive role in innovation. <span class="citation" data-cites="schot2018ThreeFramesInnovation">Schot and Steinmueller (<a href="references.html#ref-schot2018ThreeFramesInnovation" role="doc-biblioref">2018</a>)</span> state that the third innovation frame requires “[inclusively] deliberating and exploring … social and environmental goals and underlying values” (p.&nbsp;1563-1564). Are these combinable, when, how?</p>
 </div>
 </div>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Tip
 </div>
 </div>
@@ -468,12 +484,12 @@ Tip
 </figure>
 </div>
 <p>Let us step through it from the top to the bottom.</p>
-<div class="callout-caution callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 <i class="fa-regular fa-circle-question" aria-label="circle-question"></i> Reading Question
 </div>
 </div>
@@ -491,12 +507,12 @@ Tip
 <section id="transitions-of-socio-technical-systems" class="level3" data-number="2.3.1">
 <h3 data-number="2.3.1" class="anchored" data-anchor-id="transitions-of-socio-technical-systems"><span class="header-section-number">2.3.1</span> Transitions of Socio-Technical Systems</h3>
 <p>In the MLP, there are different ways in which a socio-technical system can change, or rather, undergo a transition.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Definition
 </div>
 </div>
@@ -552,12 +568,12 @@ Definition
 </table>
 <p>The MLP, as well as, innovation systems at their various scales have become backdrops against which research is being carried out <span class="citation" data-cites="truffer2022PerspectiveFutureSustainability">(<a href="references.html#ref-truffer2022PerspectiveFutureSustainability" role="doc-biblioref">Truffer et al. 2022</a>)</span>. This does not mean that they have become less influential – far from it – but rather that they are not necessarily referenced in the precise manner in which they were conceived. For my own research, as an example, the ideas of a regime resisting change is very influential. But rather than viewing niche innovations as the main source of change, I am interested in how the regime is influencing the directionality (e.g., by legitimizing certain visions for the future) of the transition. We will come back to these questions in the second lecture, were we will be looking at the emerging bioeconomy and what sustainability means for transitions.</p>
 <p>Because the MLP puts such an heavy emphasis on innovation from protected niches, early ideas focused on strategic niche management (SNM) <span class="citation" data-cites="geels2007TypologySociotechnicalTransition">(<a href="references.html#ref-geels2007TypologySociotechnicalTransition" role="doc-biblioref">Geels and Schot 2007</a>)</span>. Later iterations have focused more on other aspects of the model, such as regime and landscape changes.</p>
-<div class="callout-caution callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 <i class="fa-regular fa-circle-question" aria-label="circle-question"></i> Reading Question
 </div>
 </div>
@@ -575,12 +591,12 @@ Definition
 <h2 data-number="2.4" class="anchored" data-anchor-id="discussion-and-reflection"><span class="header-section-number">2.4</span> Discussion and Reflection</h2>
 <p>Using innovation to address grand challenges, sustainability or wicked problems, is surely needed. But not in the traditional way of thinking about innovation as a neutral at worst and positive at best force. Recasting innovation as synonymous with change and capable of deeply transforming our society opens new ways for policy makers.</p>
 <p>Transformative innovation policy agrees that shared visions are needed and that they ought to be legitimized by broad participation <span class="citation" data-cites="haddad2022TransformativeInnovationPolicy">(<a href="references.html#ref-haddad2022TransformativeInnovationPolicy" role="doc-biblioref">Haddad et al. 2022</a>)</span>. But the question of how to do that is remains a central challenge. Even within highly mature innovation systems such as NIS in EU states or the US, the question of how to govern transition innovation policy is far from answered. In addition, some authors have already pointed out that innovation research itself needs to become more diverse <span class="citation" data-cites="preuss2021DiversityTransitionTransitions">(e.g., <a href="references.html#ref-preuss2021DiversityTransitionTransitions" role="doc-biblioref">Preuß et al. 2021</a>)</span>.</p>
-<div class="callout-caution callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 <i class="fa-regular fa-circle-question" aria-label="circle-question"></i> Reading Question
 </div>
 </div>
@@ -589,12 +605,12 @@ Definition
 </div>
 </div>
 <p>In <span class="citation" data-cites="haddad2022TransformativeInnovationPolicy">Haddad et al. (<a href="references.html#ref-haddad2022TransformativeInnovationPolicy" role="doc-biblioref">2022</a>)</span> a concise review of transformative innovation policy (TIP) and its two biggest versions (MOIP and MLP) comes to the conclusion that much work remains to be done for these ideas to become viable tools for policy makers.</p>
-<div class="callout-caution callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 <i class="fa-regular fa-circle-question" aria-label="circle-question"></i> Reading Question
 </div>
 </div>
@@ -603,12 +619,12 @@ Definition
 </div>
 </div>
 <p>What do you think about the time and context of innovation? Can you envision the type of silo-free, quick moving mission innovation in non-(mature) democracies?</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Tip
 </div>
 </div>
@@ -626,83 +642,83 @@ Tip
 
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-chaminade2018AdvancedIntroductionNational" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-chaminade2018AdvancedIntroductionNational" class="csl-entry" role="listitem">
 Chaminade, Cristina. 2018. <em>Advanced Introduction to National Innovation Systems</em>. <span>Cheltenham, UK ; Northampton, MA, USA</span>: <span>Edward Elgar Publishing</span>.
 </div>
-<div id="ref-europeancommissiondirectorategeneralforresearchandinnovation2020ScienceResearchInnovation" class="csl-entry" role="doc-biblioentry">
+<div id="ref-europeancommissiondirectorategeneralforresearchandinnovation2020ScienceResearchInnovation" class="csl-entry" role="listitem">
 European Commission, Directorate General for Research and Innovation. 2020. <em>Science, Research and Innovation Performance of the <span>EU</span>, 2020: A Fair, Green and Digital <span>Europe</span>.</em> <span>Publications Office</span>. <a href="https://data.europa.eu/doi/10.2777/534046">https://data.europa.eu/doi/10.2777/534046</a>.
 </div>
-<div id="ref-frank2022ThreePerspectivesRegime" class="csl-entry" role="doc-biblioentry">
+<div id="ref-frank2022ThreePerspectivesRegime" class="csl-entry" role="listitem">
 Frank, Leonard, and Heiner Schanz. 2022. <span>“Three Perspectives on Regime Destabilisation Governance: <span>A</span> Metatheoretical Analysis of <span>German</span> Pesticide Policy.”</span> <em>Environmental Innovation and Societal Transitions</em> 44 (September): 245–64. <a href="https://doi.org/10.1016/j.eist.2022.07.002">https://doi.org/10.1016/j.eist.2022.07.002</a>.
 </div>
-<div id="ref-fuenfschilling2018GlobalSociotechnicalRegimes" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fuenfschilling2018GlobalSociotechnicalRegimes" class="csl-entry" role="listitem">
 Fuenfschilling, Lea, and Christian Binz. 2018. <span>“Global Socio-Technical Regimes.”</span> <em>Research Policy</em> 47 (4): 735–49. <a href="https://doi.org/10.1016/j.respol.2018.02.003">https://doi.org/10.1016/j.respol.2018.02.003</a>.
 </div>
-<div id="ref-geels2011MultilevelPerspectiveSustainability" class="csl-entry" role="doc-biblioentry">
+<div id="ref-geels2011MultilevelPerspectiveSustainability" class="csl-entry" role="listitem">
 Geels, Frank W. 2011. <span>“The Multi-Level Perspective on Sustainability Transitions: <span>Responses</span> to Seven Criticisms.”</span> <em>Environmental Innovation and Societal Transitions</em> 1 (1): 24–40. <a href="https://doi.org/10.1016/j.eist.2011.02.002">https://doi.org/10.1016/j.eist.2011.02.002</a>.
 </div>
-<div id="ref-geels2007TypologySociotechnicalTransition" class="csl-entry" role="doc-biblioentry">
+<div id="ref-geels2007TypologySociotechnicalTransition" class="csl-entry" role="listitem">
 Geels, Frank W., and Johan Schot. 2007. <span>“Typology of Sociotechnical Transition Pathways.”</span> <em>Research Policy</em> 36 (3): 399–417. <a href="https://doi.org/10.1016/j.respol.2007.01.003">https://doi.org/10.1016/j.respol.2007.01.003</a>.
 </div>
-<div id="ref-grin2010TransitionsSustainableDevelopment" class="csl-entry" role="doc-biblioentry">
+<div id="ref-grin2010TransitionsSustainableDevelopment" class="csl-entry" role="listitem">
 Grin, John, Jan Rotmans, and Johan Schot. 2010. <em>Transitions to <span>Sustainable Development</span>: <span>New Directions</span> in the <span>Study</span> of <span>Long Term Transformative Change</span></em>. 0th ed. <span>Routledge</span>. <a href="https://doi.org/10.4324/9780203856598">https://doi.org/10.4324/9780203856598</a>.
 </div>
-<div id="ref-haddad2022TransformativeInnovationPolicy" class="csl-entry" role="doc-biblioentry">
+<div id="ref-haddad2022TransformativeInnovationPolicy" class="csl-entry" role="listitem">
 Haddad, Carolina R., Valentina Nakić, Anna Bergek, and Hans Hellsmark. 2022. <span>“Transformative Innovation Policy: <span>A</span> Systematic Review.”</span> <em>Environmental Innovation and Societal Transitions</em> 43 (June): 14–40. <a href="https://doi.org/10.1016/j.eist.2022.03.002">https://doi.org/10.1016/j.eist.2022.03.002</a>.
 </div>
-<div id="ref-holscher2018TransitionTransformationWhat" class="csl-entry" role="doc-biblioentry">
+<div id="ref-holscher2018TransitionTransformationWhat" class="csl-entry" role="listitem">
 Hölscher, Katharina, Julia M. Wittmayer, and Derk Loorbach. 2018. <span>“Transition Versus Transformation: <span>What</span>’s the Difference?”</span> <em>Environmental Innovation and Societal Transitions</em> 27 (June): 1–3. <a href="https://doi.org/10.1016/j.eist.2017.10.007">https://doi.org/10.1016/j.eist.2017.10.007</a>.
 </div>
-<div id="ref-kuznets1966ModernEconomicGrowth" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kuznets1966ModernEconomicGrowth" class="csl-entry" role="listitem">
 Kuznets, Simon. 1966. <em>Modern Economic Growth: Rate, Structure, and Spread</em>. <span>New Haven ;</span> <span>Yale U.P.,</span>.
 </div>
-<div id="ref-mazzucato2018MissionorientedInnovationPolicies" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mazzucato2018MissionorientedInnovationPolicies" class="csl-entry" role="listitem">
 Mazzucato, Mariana. 2018. <span>“Mission-Oriented Innovation Policies: Challenges and Opportunities.”</span> <em>Industrial and Corporate Change</em> 27 (5): 803–15. <a href="https://doi.org/10.1093/icc/dty034">https://doi.org/10.1093/icc/dty034</a>.
 </div>
-<div id="ref-mazzucato2021MissionEconomyMoonshot" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mazzucato2021MissionEconomyMoonshot" class="csl-entry" role="listitem">
 ———. 2021. <em>Mission Economy: A Moonshot Guide to Changing Capitalism</em>. <span>New York</span>: <span>Harper Business</span>.
 </div>
-<div id="ref-nelson2004EvolutionaryTheoryEconomic" class="csl-entry" role="doc-biblioentry">
+<div id="ref-nelson2004EvolutionaryTheoryEconomic" class="csl-entry" role="listitem">
 Nelson, Richard R., and Sidney G. Winter. 2004. <em>An Evolutionary Theory of Economic Change</em>. Digitally reprinted. <span>Cambridge, Mass.</span>: <span>The Belknap Press of Harvard Univ. Press</span>.
 </div>
-<div id="ref-otto2020SocialTippingDynamics" class="csl-entry" role="doc-biblioentry">
+<div id="ref-otto2020SocialTippingDynamics" class="csl-entry" role="listitem">
 Otto, Ilona M., Jonathan F. Donges, Roger Cremades, Avit Bhowmik, Richard J. Hewitt, Wolfgang Lucht, Johan Rockström, et al. 2020. <span>“Social Tipping Dynamics for Stabilizing <span>Earth</span>’s Climate by 2050.”</span> <em>Proceedings of the National Academy of Sciences</em> 117 (5): 2354–65. <a href="https://doi.org/10.1073/pnas.1900577117">https://doi.org/10.1073/pnas.1900577117</a>.
 </div>
-<div id="ref-persson2022OutsideSafeOperating" class="csl-entry" role="doc-biblioentry">
+<div id="ref-persson2022OutsideSafeOperating" class="csl-entry" role="listitem">
 Persson, Linn, Bethanie M. Carney Almroth, Christopher D. Collins, Sarah Cornell, Cynthia A. de Wit, Miriam L. Diamond, Peter Fantke, et al. 2022. <span>“Outside the <span>Safe Operating Space</span> of the <span>Planetary Boundary</span> for <span>Novel Entities</span>.”</span> <em>Environmental Science &amp; Technology</em>, January. <a href="https://doi.org/10.1021/acs.est.1c04158">https://doi.org/10.1021/acs.est.1c04158</a>.
 </div>
-<div id="ref-preuss2021DiversityTransitionTransitions" class="csl-entry" role="doc-biblioentry">
+<div id="ref-preuss2021DiversityTransitionTransitions" class="csl-entry" role="listitem">
 Preuß, Sabine, Ray Galvin, Bipashyee Ghosh, and Elisabeth Dütschke. 2021. <span>“Diversity in Transition: <span>Is</span> Transitions Research Diverse (Enough)?”</span> <em>Environmental Innovation and Societal Transitions</em>, Celebrating a decade of <span>EIST</span>: <span>What</span>’s next for transition studies?, 41 (December): 116–18. <a href="https://doi.org/10.1016/j.eist.2021.10.020">https://doi.org/10.1016/j.eist.2021.10.020</a>.
 </div>
-<div id="ref-rockstrom2009PlanetaryBoundariesExploring" class="csl-entry" role="doc-biblioentry">
+<div id="ref-rockstrom2009PlanetaryBoundariesExploring" class="csl-entry" role="listitem">
 Rockström, Johan, Will Steffen, Kevin Noone, Åsa Persson, F. Stuart III Chapin, Eric Lambin, Timothy M. Lenton, et al. 2009. <span>“Planetary <span>Boundaries</span>: <span>Exploring</span> the <span>Safe Operating Space</span> for <span>Humanity</span>.”</span> <em>Ecology and Society</em> 14 (2): art32. <a href="https://doi.org/10.5751/ES-03180-140232">https://doi.org/10.5751/ES-03180-140232</a>.
 </div>
-<div id="ref-roggema2012TransitionTransformation" class="csl-entry" role="doc-biblioentry">
+<div id="ref-roggema2012TransitionTransformation" class="csl-entry" role="listitem">
 Roggema, Rob, Tim Vermeend, and Wim Timmermans. 2012. <span>“Transition and <span>Transformation</span>.”</span> In <em>Swarming <span>Landscapes</span></em>, edited by Rob Roggema, 48:67–90. Advances in <span>Global Change Research</span>. <span>Dordrecht</span>: <span>Springer Netherlands</span>. <a href="https://doi.org/10.1007/978-94-007-4378-6_4">https://doi.org/10.1007/978-94-007-4378-6_4</a>.
 </div>
-<div id="ref-rosenbloom2020EngagingMultisystemInteractions" class="csl-entry" role="doc-biblioentry">
+<div id="ref-rosenbloom2020EngagingMultisystemInteractions" class="csl-entry" role="listitem">
 Rosenbloom, Daniel. 2020. <span>“Engaging with Multi-System Interactions in Sustainability Transitions: <span>A</span> Comment on the Transitions Research Agenda.”</span> <em>Environmental Innovation and Societal Transitions</em> 34 (March): 336–40. <a href="https://doi.org/10.1016/j.eist.2019.10.003">https://doi.org/10.1016/j.eist.2019.10.003</a>.
 </div>
-<div id="ref-schot2018ThreeFramesInnovation" class="csl-entry" role="doc-biblioentry">
+<div id="ref-schot2018ThreeFramesInnovation" class="csl-entry" role="listitem">
 Schot, Johan, and W. Edward Steinmueller. 2018. <span>“Three Frames for Innovation Policy: <span>R</span>&amp;<span>D</span>, Systems of Innovation and Transformative Change.”</span> <em>Research Policy</em> 47 (9): 1554–67. <a href="https://doi.org/10.1016/j.respol.2018.08.011">https://doi.org/10.1016/j.respol.2018.08.011</a>.
 </div>
-<div id="ref-schumpeter2012TheoryEconomicDevelopment" class="csl-entry" role="doc-biblioentry">
+<div id="ref-schumpeter2012TheoryEconomicDevelopment" class="csl-entry" role="listitem">
 Schumpeter, Joseph A., and John E. Elliott. 2012. <em>The Theory of Economic Development: An Inquiry into Profits, Capital, Credit, Interest, and the Business Cycle</em>. Translated by Redvers Opie. Sixteenth printing; New material this edition copyright 1983, original material copyright 1934. Social Science Classics Series. <span>New Brunswick (U.S.A.) London (U.K.)</span>: <span>Transaction Publishers</span>.
 </div>
-<div id="ref-steffen2011AnthropoceneGlobalChange" class="csl-entry" role="doc-biblioentry">
+<div id="ref-steffen2011AnthropoceneGlobalChange" class="csl-entry" role="listitem">
 Steffen, Will, Åsa Persson, Lisa Deutsch, Jan Zalasiewicz, Mark Williams, Katherine Richardson, Carole Crumley, et al. 2011. <span>“The <span>Anthropocene</span>: <span>From Global Change</span> to <span>Planetary Stewardship</span>.”</span> <em>AMBIO</em> 40 (7): 739. <a href="https://doi.org/10.1007/s13280-011-0185-x">https://doi.org/10.1007/s13280-011-0185-x</a>.
 </div>
-<div id="ref-steffen2015PlanetaryBoundariesGuiding" class="csl-entry" role="doc-biblioentry">
+<div id="ref-steffen2015PlanetaryBoundariesGuiding" class="csl-entry" role="listitem">
 Steffen, Will, Katherine Richardson, Johan Rockström, Sarah E. Cornell, Ingo Fetzer, Elena M. Bennett, Reinette Biggs, et al. 2015. <span>“Planetary Boundaries: <span>Guiding</span> Human Development on a Changing Planet.”</span> <em>Science</em>, February. <a href="https://doi.org/10.1126/science.1259855">https://doi.org/10.1126/science.1259855</a>.
 </div>
-<div id="ref-truffer2022PerspectiveFutureSustainability" class="csl-entry" role="doc-biblioentry">
+<div id="ref-truffer2022PerspectiveFutureSustainability" class="csl-entry" role="listitem">
 Truffer, Bernhard, Harald Rohracher, Paula Kivimaa, Rob Raven, Floor Alkemade, Luis Carvalho, and Giuseppe Feola. 2022. <span>“A Perspective on the Future of Sustainability Transitions Research.”</span> <em>Environmental Innovation and Societal Transitions</em> 42 (March): 331–39. <a href="https://doi.org/10.1016/j.eist.2022.01.006">https://doi.org/10.1016/j.eist.2022.01.006</a>.
 </div>
-<div id="ref-wang-erlandsson2022PlanetaryBoundaryGreen" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wang-erlandsson2022PlanetaryBoundaryGreen" class="csl-entry" role="listitem">
 Wang-Erlandsson, Lan, Arne Tobian, Ruud J. van der Ent, Ingo Fetzer, Sofie te Wierik, Miina Porkka, Arie Staal, et al. 2022. <span>“A Planetary Boundary for Green Water.”</span> <em>Nature Reviews Earth &amp; Environment</em> 3 (6, 6): 380–92. <a href="https://doi.org/10.1038/s43017-022-00287-8">https://doi.org/10.1038/s43017-022-00287-8</a>.
 </div>
-<div id="ref-weber2012LegitimizingResearchTechnology" class="csl-entry" role="doc-biblioentry">
+<div id="ref-weber2012LegitimizingResearchTechnology" class="csl-entry" role="listitem">
 Weber, K. Matthias, and Harald Rohracher. 2012. <span>“Legitimizing Research, Technology and Innovation Policies for Transformative Change: <span>Combining</span> Insights from Innovation Systems and Multi-Level Perspective in a Comprehensive <span>‘Failures’</span> Framework.”</span> <em>Research Policy</em>, Special <span>Section</span> on <span>Sustainability Transitions</span>, 41 (6): 1037–47. <a href="https://doi.org/10.1016/j.respol.2011.10.015">https://doi.org/10.1016/j.respol.2011.10.015</a>.
 </div>
 </div>
@@ -737,9 +753,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -804,6 +834,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -858,7 +974,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Copyright 2022, Jonas Kreutzer</div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Copyright 2022, Jonas Kreutzer</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 
